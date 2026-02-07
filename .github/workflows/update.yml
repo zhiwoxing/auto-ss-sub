@@ -1,0 +1,39 @@
+name: Update SS Subscription
+
+# 👇👇👇 这一段非常重要，没有它无法自动保存 👇👇👇
+permissions:
+  contents: write
+# 👆👆👆 必须加上这一段 👆👆👆
+
+on:
+  schedule:
+    - cron: "0 */6 * * *" # 每6小时运行一次
+  workflow_dispatch: # 允许手动运行
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Download and Process
+        run: |
+          # 1. 下载原始的 snippet 文件
+          curl -s https://raw.githubusercontent.com/WeiGiegie/vpm/main/lq.snippet > raw.txt
+          
+          # 2. 进行 Base64 编码 (这一步就是把生肉煮成熟肉)
+          # 并将结果保存为 sub.txt
+          base64 raw.txt | tr -d '\n' > sub.txt
+          
+          # 3. 清理临时文件
+          rm raw.txt
+
+      - name: Commit and push
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git add sub.txt
+          # 如果没有变化就不提交，防止报错
+          git commit -m "Auto update subscription" || exit 0
+          git push
