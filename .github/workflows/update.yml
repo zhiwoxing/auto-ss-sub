@@ -7,8 +7,10 @@ permissions:
 
 on:
   schedule:
-    - cron: "0 */3 * * *" # 每3小时运行一次
-  workflow_dispatch: # 允许手动运行
+    - cron: "1 16 * * *"   # 北京时间 0:01 (UTC 16:01)
+    - cron: "1 22 * * *"   # 北京时间 6:01 (UTC 22:01)
+    - cron: "1 4 * * *"    # 北京时间 12:01 (UTC 04:01)
+  workflow_dispatch:
 
 jobs:
   update:
