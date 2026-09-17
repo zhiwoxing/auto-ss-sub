@@ -21,12 +21,15 @@ jobs:
         run: |
           # 1. 下载原始的 snippet 文件
           curl -s https://raw.githubusercontent.com/WeiGiegie/vpm/main/lq.snippet > raw.txt
-          
-          # 2. 进行 Base64 编码 (这一步就是把生肉煮成熟肉)
+
+          # 2. 删除第一个节点
+          sed -i '1d' raw.txt
+
+          # 3. 进行 Base64 编码 (这一步就是把生肉煮成熟肉)
           # 并将结果保存为 sub.txt
           base64 raw.txt | tr -d '\n' > sub.txt
           
-          # 3. 清理临时文件
+          # 4. 清理临时文件
           rm raw.txt
 
       - name: Commit and push
