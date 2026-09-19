@@ -11,3 +11,17 @@
 小牛台湾4 = vmess, dee2309db4944c248b6d4672c6641e25.oylfmxz.cn, 443, username=d90e4077-bc7e-414d-a650-70bf1baae4d6, tls=true, sni=dee2309db4944c248b6d4672c6641e25.oylfmxz.cn, ws=true, ws-path=/, ws-headers=Host:dee2309db4944c248b6d4672c6641e25.oylfmxz.cn
 
 小牛台湾5 = vmess, dee2309db4944c248b6d4372c6641e25.oylfmxz.cn, 443, username=d90e4077-bc7e-414d-a650-70bf1baae4d6, tls=true, sni=dee2309db4944c248b6d4372c6641e25.oylfmxz.cn, ws=true, ws-path=/, ws-headers=Host:dee2309db4944c248b6d4372c6641e25.oylfmxz.cn
+
+香港(HK) = anytls, 8uhb.pnuqcnp.cn, 443, password=9sK2mP8xQ7vL3nZ6, sni=images.ctfassets.net, alpn=http/1.1, skip-cert-verify=true
+
+美国(US) = anytls, awefd2313fefarg23fr24.pnuqcnp.cn, 443, password=9sK2mP8xQ7vL3nZ6, sni=images.ctfassets.net, alpn=http/1.1, skip-cert-verify=true
+
+新加坡(SG) = anytls, ac7548f3ebe045b39a90288ff1e97526.pnuqcnp.cn, 443, password=9sK2mP8xQ7vL3nZ6, sni=ac7548f3ebe045b39a90288ff1e97526.lwdnxf.cn, alpn=http/1.1, skip-cert-verify=true
+
+意大利(IT) = anytls, ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn, 443, password=9sK2mP8xQ7vL3nZ6, sni=ac7548f3ebe045b39a90288ff1e97528.lwdnxf.cn, alpn=http/1.1, skip-cert-verify=true
+
+香港2 = anytls, ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn, 443, password=9sK2mP8xQ7vL3nZ6, sni=ac7548f3ebe045b39a90288ff1e97528.lwdnxf.cn, alpn=http/1.1, skip-cert-verify=true
+
+美国2 = anytls, awefd2313fefarg23fr24.pnuqcnp.cn, 443, password=9sK2mP8xQ7vL3nZ6, sni=images.ctfassets.net, alpn=http/1.1, skip-cert-verify=true
+
+新加坡2 = anytls, 6ivh.pnuqcnp.cn, 443, password=9sK2mP8xQ7vL3nZ6, sni=images.ctfassets.net, alpn=http/1.1, skip-cert-verify=true
