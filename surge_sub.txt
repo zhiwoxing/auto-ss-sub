@@ -1,13 +1,15 @@
-	香港(HK) = anytls, 8uhb.pnuqcnp.cn, 443, password=9sK2mP8xQ7vL3nZ6, sni=images.ctfassets.net, alpn=http/1.1, skip-cert-verify=true
-	
-	美国(US) = anytls, awefd2313fefarg23fr24.pnuqcnp.cn, 443, password=9sK2mP8xQ7vL3nZ6, sni=images.ctfassets.net, alpn=http/1.1, skip-cert-verify=true
-	
-	新加坡(SG) = anytls, ac7548f3ebe045b39a90288ff1e97526.pnuqcnp.cn, 443, password=9sK2mP8xQ7vL3nZ6, sni=ac7548f3ebe045b39a90288ff1e97526.lwdnxf.cn, alpn=http/1.1, skip-cert-verify=true
-	
-	意大利(IT) = anytls, ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn, 443, password=9sK2mP8xQ7vL3nZ6, sni=ac7548f3ebe045b39a90288ff1e97528.lwdnxf.cn, alpn=http/1.1, skip-cert-verify=true
-	
-	香港 = anytls, ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn, 443, password=9sK2mP8xQ7vL3nZ6, sni=ac7548f3ebe045b39a90288ff1e97528.lwdnxf.cn, alpn=http/1.1, skip-cert-verify=true
-	
-	美国 = anytls, awefd2313fefarg23fr24.pnuqcnp.cn, 443, password=9sK2mP8xQ7vL3nZ6, sni=images.ctfassets.net, alpn=http/1.1, skip-cert-verify=true
-	
-	新加坡 = anytls, 6ivh.pnuqcnp.cn, 443, password=9sK2mP8xQ7vL3nZ6, sni=images.ctfassets.net, alpn=http/1.1, skip-cert-verify=true
+[Proxy]
+
+香港(HK) = anytls, 8uhb.pnuqcnp.cn, 443, password=9sK2mP8xQ7vL3nZ6, sni=images.ctfassets.net, alpn=http/1.1, skip-cert-verify=true
+
+美国(US) = anytls, awefd2313fefarg23fr24.pnuqcnp.cn, 443, password=9sK2mP8xQ7vL3nZ6, sni=images.ctfassets.net, alpn=http/1.1, skip-cert-verify=true
+
+新加坡(SG) = anytls, ac7548f3ebe045b39a90288ff1e97526.pnuqcnp.cn, 443, password=9sK2mP8xQ7vL3nZ6, sni=ac7548f3ebe045b39a90288ff1e97526.lwdnxf.cn, alpn=http/1.1, skip-cert-verify=true
+
+意大利(IT) = anytls, ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn, 443, password=9sK2mP8xQ7vL3nZ6, sni=ac7548f3ebe045b39a90288ff1e97528.lwdnxf.cn, alpn=http/1.1, skip-cert-verify=true
+
+香港 = anytls, ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn, 443, password=9sK2mP8xQ7vL3nZ6, sni=ac7548f3ebe045b39a90288ff1e97528.lwdnxf.cn, alpn=http/1.1, skip-cert-verify=true
+
+美国 = anytls, awefd2313fefarg23fr24.pnuqcnp.cn, 443, password=9sK2mP8xQ7vL3nZ6, sni=images.ctfassets.net, alpn=http/1.1, skip-cert-verify=true
+
+新加坡 = anytls, 6ivh.pnuqcnp.cn, 443, password=9sK2mP8xQ7vL3nZ6, sni=images.ctfassets.net, alpn=http/1.1, skip-cert-verify=true
