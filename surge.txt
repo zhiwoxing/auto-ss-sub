@@ -1,0 +1,13 @@
+[Proxy]
+
+小牛香港1 = vmess, dee2309db4944c248b6d4372c6641e7b.oylfmxz.cn, 443, username=d90e4077-bc7e-414d-a650-70bf1baae4d6, tls=true, sni=dee2309db4944c248b6d4372c6641e7b.oylfmxz.cn, ws=true, ws-path=/, ws-headers=Host:dee2309db4944c248b6d4372c6641e7b.oylfmxz.cn
+
+小牛台湾1 = vmess, dee2309db4se3grs6e8hg4w61sd53g1.oylfmxz.cn, 443, username=d90e4077-bc7e-414d-a650-70bf1baae4d6, tls=true, sni=dee2309db4se3grs6e8hg4w61sd53g1.oylfmxz.cn, ws=true, ws-path=/, ws-headers=Host:dee2309db4se3grs6e8hg4w61sd53g1.oylfmxz.cn
+
+小牛台湾2 = vmess, dee2309db4se3g5sds35g4s3dg.oylfmxz.cn, 443, username=d90e4077-bc7e-414d-a650-70bf1baae4d6, tls=true, sni=dee2309db4se3g5sds35g4s3dg.oylfmxz.cn, ws=true, ws-path=/, ws-headers=Host:dee2309db4se3g5sds35g4s3dg.oylfmxz.cn
+
+小牛台湾3 = vmess, dee2309db4se3g5s1d65g672c6641e25.oylfmxz.cn, 443, username=d90e4077-bc7e-414d-a650-70bf1baae4d6, tls=true, sni=dee2309db4se3g5s1d65g672c6641e25.oylfmxz.cn, ws=true, ws-path=/, ws-headers=Host:dee2309db4se3g5s1d65g672c6641e25.oylfmxz.cn
+
+小牛台湾4 = vmess, dee2309db4944c248b6d4672c6641e25.oylfmxz.cn, 443, username=d90e4077-bc7e-414d-a650-70bf1baae4d6, tls=true, sni=dee2309db4944c248b6d4672c6641e25.oylfmxz.cn, ws=true, ws-path=/, ws-headers=Host:dee2309db4944c248b6d4672c6641e25.oylfmxz.cn
+
+小牛台湾5 = vmess, dee2309db4944c248b6d4372c6641e25.oylfmxz.cn, 443, username=d90e4077-bc7e-414d-a650-70bf1baae4d6, tls=true, sni=dee2309db4944c248b6d4372c6641e25.oylfmxz.cn, ws=true, ws-path=/, ws-headers=Host:dee2309db4944c248b6d4372c6641e25.oylfmxz.cn
