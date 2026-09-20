@@ -9,7 +9,6 @@ proxies:
       - http/1.1
     skip-cert-verify: true
     client-fingerprint: chrome
-    udp: true
 
   - name: 美国(US)
     type: anytls
@@ -21,7 +20,6 @@ proxies:
       - http/1.1
     skip-cert-verify: true
     client-fingerprint: chrome
-    udp: true
 
   - name: 新加坡(SG)
     type: anytls
@@ -33,7 +31,6 @@ proxies:
       - http/1.1
     skip-cert-verify: true
     client-fingerprint: chrome
-    udp: true
 
   - name: 意大利(IT)
     type: anytls
@@ -45,7 +42,6 @@ proxies:
       - http/1.1
     skip-cert-verify: true
     client-fingerprint: chrome
-    udp: true
 
   - name: 香港
     type: anytls
@@ -57,7 +53,6 @@ proxies:
       - http/1.1
     skip-cert-verify: true
     client-fingerprint: chrome
-    udp: true
 
   - name: 美国
     type: anytls
@@ -69,7 +64,6 @@ proxies:
       - http/1.1
     skip-cert-verify: true
     client-fingerprint: chrome
-    udp: true
 
   - name: 新加坡
     type: anytls
@@ -81,4 +75,3 @@ proxies:
       - http/1.1
     skip-cert-verify: true
     client-fingerprint: chrome
-    udp: true
