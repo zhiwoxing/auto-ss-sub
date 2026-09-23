@@ -14,3 +14,9 @@ vless=signodels.jumpernode.online:443, method=none, password=051fbf39-789a-4017-
 vless=jumpernode.online:443, method=none, password=440f986b-9469-4d80-adf0-01ba37af73c5, obfs=over-tls, obfs-host=home.amazon.com, reality-base64-pubkey=sDKrtAJk2VP_w1w7cFi2O86RdlvQ2E2An5xsRdJlgGE, reality-hex-shortid=e27219911301, vless-flow=xtls-rprx-vision, tag=SG-JNG1 VIP
 vless=defrnode.jumpernode.online:443, method=none, password=8af93649-403b-46d8-9966-923d4c58402c, obfs=over-tls, obfs-host=buckeye-retail-website.amazon.com, reality-base64-pubkey=XTarABsaaFbjYNk6lRKnUzGavHzeqMIP7B8dZGNCvkE, reality-hex-shortid=5c6481cdd4, vless-flow=xtls-rprx-vision, tag=DE-FRA-NG1 VIP
 
+
+anytls=8uhb.pnuqcnp.cn:443, password=9sK2mP8xQ7vL3nZ6, over-tls=true, tls-host=images.ctfassets.net, udp-relay=true, tls-alpn=08687474702f312e31, tls-verification=false, tag=香港(HK)
+anytls=awefd2313fefarg23fr24.pnuqcnp.cn:443, password=9sK2mP8xQ7vL3nZ6, over-tls=true, tls-host=images.ctfassets.net, udp-relay=true, tls-alpn=08687474702f312e31, tls-verification=false, tag=美国(US)
+anytls=6ivh.pnuqcnp.cn:443, password=9sK2mP8xQ7vL3nZ6, over-tls=true, tls-host=images.ctfassets.net, udp-relay=true, tls-alpn=08687474702f312e31, tls-verification=false, tag=新加坡(SG)
+anytls=ac7548f3ebe045b39a90288ff1e97526.pnuqcnp.cn:443, password=9sK2mP8xQ7vL3nZ6, over-tls=true, tls-host=ac7548f3ebe045b39a90288ff1e97526.lwdnxf.cn, udp-relay=true, tls-alpn=08687474702f312e31, tls-verification=false, tag=日本(JP)
+
