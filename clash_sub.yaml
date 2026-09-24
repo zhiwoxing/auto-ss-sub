@@ -33,104 +33,6 @@ dns:
 
 proxies:
 
-  - name: "USA-JNG1 VIP"
-    type: vless
-    server: "jumpernode.online"
-    port: 443
-    uuid: "ce7beb9a-5dc1-47b3-b3ff-94521430c446"
-    udp: true
-    tls: true
-    skip-cert-verify: false
-    servername: "yp.amazon.com"
-    reality-opts:
-      public-key: "sDKrtAJk2VP_w1w7cFi2O86RdlvQ2E2An5xsRdJlgGE"
-      short-id: "5ea30fc4"
-    client-fingerprint: "chrome"
-    flow: "xtls-rprx-vision"
-  - name: "USA-NBNGD1 VIP"
-    type: vless
-    server: "usanbnode.jumpernode.online"
-    port: 443
-    uuid: "ffe0a6ce-07f0-4146-910f-74bdce2f9697"
-    udp: true
-    tls: true
-    skip-cert-verify: false
-    servername: "konrad-test.amazon.com"
-    reality-opts:
-      public-key: "9scNoKQky3ncRRW5yZqWlTU9cChQAK5rCpM6xfVQR3g"
-      short-id: "71b83607c5c0"
-    client-fingerprint: "chrome"
-    flow: "xtls-rprx-vision"
-  - name: "HongKong-JNG1 VIP"
-    type: vless
-    server: "jumpernode.online"
-    port: 443
-    uuid: "23af32ca-bea1-4a5e-bebb-04d1b1b633bc"
-    udp: true
-    tls: true
-    skip-cert-verify: false
-    servername: "amazon.com"
-    reality-opts:
-      public-key: "sDKrtAJk2VP_w1w7cFi2O86RdlvQ2E2An5xsRdJlgGE"
-      short-id: "786320285b8e0a3f"
-    client-fingerprint: "chrome"
-    flow: "xtls-rprx-vision"
-  - name: "HongKong-NG1 VIP"
-    type: vless
-    server: "xxxtestnode.jumpernode.online"
-    port: 19012
-    uuid: "b1b467a6-d252-415b-9a2d-bfce776409ed"
-    udp: true
-    tls: true
-    skip-cert-verify: false
-    servername: "www.sony.com"
-    reality-opts:
-      public-key: "PD28IBZZKPBIZkYaLy7PZTwBBMwLg5nN9wmI2w6wDUU"
-      short-id: "3b7d7a1d8899"
-    client-fingerprint: "chrome"
-    flow: "xtls-rprx-vision"
-  - name: "SG-NGD1 VIP"
-    type: vless
-    server: "signodels.jumpernode.online"
-    port: 443
-    uuid: "051fbf39-789a-4017-9022-eb32daeb5efd"
-    udp: true
-    tls: true
-    skip-cert-verify: false
-    servername: "shop.business.amazon.com"
-    reality-opts:
-      public-key: "Q8vb7a7wHy2nB-9fVuVeeizz9efta09IHHmC-mRbgQw"
-      short-id: "334b080fa37c42f4"
-    client-fingerprint: "chrome"
-    flow: "xtls-rprx-vision"
-  - name: "SG-JNG1 VIP"
-    type: vless
-    server: "jumpernode.online"
-    port: 443
-    uuid: "440f986b-9469-4d80-adf0-01ba37af73c5"
-    udp: true
-    tls: true
-    skip-cert-verify: false
-    servername: "home.amazon.com"
-    reality-opts:
-      public-key: "sDKrtAJk2VP_w1w7cFi2O86RdlvQ2E2An5xsRdJlgGE"
-      short-id: "e27219911301"
-    client-fingerprint: "chrome"
-    flow: "xtls-rprx-vision"
-  - name: "DE-FRA-NG1 VIP"
-    type: vless
-    server: "defrnode.jumpernode.online"
-    port: 443
-    uuid: "8af93649-403b-46d8-9966-923d4c58402c"
-    udp: true
-    tls: true
-    skip-cert-verify: false
-    servername: "buckeye-retail-website.amazon.com"
-    reality-opts:
-      public-key: "XTarABsaaFbjYNk6lRKnUzGavHzeqMIP7B8dZGNCvkE"
-      short-id: "5c6481cdd4"
-    client-fingerprint: "chrome"
-    flow: "xtls-rprx-vision"
   - name: "香港(HK)"
     type: anytls
     server: "8uhb.pnuqcnp.cn"
@@ -140,7 +42,6 @@ proxies:
     udp: true
     sni: "images.ctfassets.net"
     alpn: ["http/1.1"]
-    fingerprint: "7EA8C7D3FA0F65C75A7A9C4244ABF700CC203B6D2F76282E115C2363A745A32A"
     client-fingerprint: "chrome"
   - name: "美国(US)"
     type: anytls
@@ -151,9 +52,50 @@ proxies:
     udp: true
     sni: "images.ctfassets.net"
     alpn: ["http/1.1"]
-    fingerprint: "9BEF062AC221DD1F95CD5456893F1C5167701322967A8F4235BBF21C7066386E"
     client-fingerprint: "chrome"
   - name: "新加坡(SG)"
+    type: anytls
+    server: "6ivh.pnuqcnp.cn"
+    port: 443
+    password: "9sK2mP8xQ7vL3nZ6"
+    skip-cert-verify: true
+    udp: true
+    sni: "images.ctfassets.net"
+    alpn: ["http/1.1"]
+    client-fingerprint: "chrome"
+  - name: "日本(JP)"
+    type: anytls
+    server: "ac7548f3ebe045b39a90288ff1e97526.pnuqcnp.cn"
+    port: 443
+    password: "9sK2mP8xQ7vL3nZ6"
+    skip-cert-verify: true
+    udp: true
+    sni: "ac7548f3ebe045b39a90288ff1e97526.lwdnxf.cn"
+    alpn: ["http/1.1"]
+    client-fingerprint: "chrome"
+  - name: "香港(HK) · 2"
+    type: anytls
+    server: "8uhb.pnuqcnp.cn"
+    port: 443
+    password: "9sK2mP8xQ7vL3nZ6"
+    skip-cert-verify: true
+    udp: true
+    sni: "images.ctfassets.net"
+    alpn: ["http/1.1"]
+    fingerprint: "7EA8C7D3FA0F65C75A7A9C4244ABF700CC203B6D2F76282E115C2363A745A32A"
+    client-fingerprint: "chrome"
+  - name: "美国(US) · 2"
+    type: anytls
+    server: "awefd2313fefarg23fr24.pnuqcnp.cn"
+    port: 443
+    password: "9sK2mP8xQ7vL3nZ6"
+    skip-cert-verify: true
+    udp: true
+    sni: "images.ctfassets.net"
+    alpn: ["http/1.1"]
+    fingerprint: "9BEF062AC221DD1F95CD5456893F1C5167701322967A8F4235BBF21C7066386E"
+    client-fingerprint: "chrome"
+  - name: "新加坡(SG) · 2"
     type: anytls
     server: "ac7548f3ebe045b39a90288ff1e97526.pnuqcnp.cn"
     port: 443
@@ -212,16 +154,13 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - "DIRECT"
-      - "USA-JNG1 VIP"
-      - "USA-NBNGD1 VIP"
-      - "HongKong-JNG1 VIP"
-      - "HongKong-NG1 VIP"
-      - "SG-NGD1 VIP"
-      - "SG-JNG1 VIP"
-      - "DE-FRA-NG1 VIP"
       - "香港(HK)"
       - "美国(US)"
       - "新加坡(SG)"
+      - "日本(JP)"
+      - "香港(HK) · 2"
+      - "美国(US) · 2"
+      - "新加坡(SG) · 2"
       - "意大利(IT)"
       - "香港"
       - "美国"
@@ -232,16 +171,13 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - "USA-JNG1 VIP"
-      - "USA-NBNGD1 VIP"
-      - "HongKong-JNG1 VIP"
-      - "HongKong-NG1 VIP"
-      - "SG-NGD1 VIP"
-      - "SG-JNG1 VIP"
-      - "DE-FRA-NG1 VIP"
       - "香港(HK)"
       - "美国(US)"
       - "新加坡(SG)"
+      - "日本(JP)"
+      - "香港(HK) · 2"
+      - "美国(US) · 2"
+      - "新加坡(SG) · 2"
       - "意大利(IT)"
       - "香港"
       - "美国"
@@ -252,16 +188,13 @@ proxy-groups:
       - "🚀 节点选择"
       - "♻️ 自动选择"
       - "🎯 全球直连"
-      - "USA-JNG1 VIP"
-      - "USA-NBNGD1 VIP"
-      - "HongKong-JNG1 VIP"
-      - "HongKong-NG1 VIP"
-      - "SG-NGD1 VIP"
-      - "SG-JNG1 VIP"
-      - "DE-FRA-NG1 VIP"
       - "香港(HK)"
       - "美国(US)"
       - "新加坡(SG)"
+      - "日本(JP)"
+      - "香港(HK) · 2"
+      - "美国(US) · 2"
+      - "新加坡(SG) · 2"
       - "意大利(IT)"
       - "香港"
       - "美国"
@@ -271,16 +204,13 @@ proxy-groups:
     proxies:
       - "🚀 节点选择"
       - "🎯 全球直连"
-      - "USA-JNG1 VIP"
-      - "USA-NBNGD1 VIP"
-      - "HongKong-JNG1 VIP"
-      - "HongKong-NG1 VIP"
-      - "SG-NGD1 VIP"
-      - "SG-JNG1 VIP"
-      - "DE-FRA-NG1 VIP"
       - "香港(HK)"
       - "美国(US)"
       - "新加坡(SG)"
+      - "日本(JP)"
+      - "香港(HK) · 2"
+      - "美国(US) · 2"
+      - "新加坡(SG) · 2"
       - "意大利(IT)"
       - "香港"
       - "美国"
@@ -290,16 +220,13 @@ proxy-groups:
     proxies:
       - "🎯 全球直连"
       - "🚀 节点选择"
-      - "USA-JNG1 VIP"
-      - "USA-NBNGD1 VIP"
-      - "HongKong-JNG1 VIP"
-      - "HongKong-NG1 VIP"
-      - "SG-NGD1 VIP"
-      - "SG-JNG1 VIP"
-      - "DE-FRA-NG1 VIP"
       - "香港(HK)"
       - "美国(US)"
       - "新加坡(SG)"
+      - "日本(JP)"
+      - "香港(HK) · 2"
+      - "美国(US) · 2"
+      - "新加坡(SG) · 2"
       - "意大利(IT)"
       - "香港"
       - "美国"
@@ -309,16 +236,13 @@ proxy-groups:
     proxies:
       - "🚀 节点选择"
       - "🎯 全球直连"
-      - "USA-JNG1 VIP"
-      - "USA-NBNGD1 VIP"
-      - "HongKong-JNG1 VIP"
-      - "HongKong-NG1 VIP"
-      - "SG-NGD1 VIP"
-      - "SG-JNG1 VIP"
-      - "DE-FRA-NG1 VIP"
       - "香港(HK)"
       - "美国(US)"
       - "新加坡(SG)"
+      - "日本(JP)"
+      - "香港(HK) · 2"
+      - "美国(US) · 2"
+      - "新加坡(SG) · 2"
       - "意大利(IT)"
       - "香港"
       - "美国"
@@ -329,16 +253,13 @@ proxy-groups:
       - "🚀 节点选择"
       - "🎯 全球直连"
       - "♻️ 自动选择"
-      - "USA-JNG1 VIP"
-      - "USA-NBNGD1 VIP"
-      - "HongKong-JNG1 VIP"
-      - "HongKong-NG1 VIP"
-      - "SG-NGD1 VIP"
-      - "SG-JNG1 VIP"
-      - "DE-FRA-NG1 VIP"
       - "香港(HK)"
       - "美国(US)"
       - "新加坡(SG)"
+      - "日本(JP)"
+      - "香港(HK) · 2"
+      - "美国(US) · 2"
+      - "新加坡(SG) · 2"
       - "意大利(IT)"
       - "香港"
       - "美国"
@@ -365,16 +286,13 @@ proxy-groups:
       - "🚀 节点选择"
       - "🎯 全球直连"
       - "♻️ 自动选择"
-      - "USA-JNG1 VIP"
-      - "USA-NBNGD1 VIP"
-      - "HongKong-JNG1 VIP"
-      - "HongKong-NG1 VIP"
-      - "SG-NGD1 VIP"
-      - "SG-JNG1 VIP"
-      - "DE-FRA-NG1 VIP"
       - "香港(HK)"
       - "美国(US)"
       - "新加坡(SG)"
+      - "日本(JP)"
+      - "香港(HK) · 2"
+      - "美国(US) · 2"
+      - "新加坡(SG) · 2"
       - "意大利(IT)"
       - "香港"
       - "美国"
