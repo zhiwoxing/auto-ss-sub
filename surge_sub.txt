@@ -1,15 +1,11 @@
-[Proxy]
-
-香港(HK) = anytls, 8uhb.pnuqcnp.cn, 443, password=9sK2mP8xQ7vL3nZ6, sni=images.ctfassets.net, alpn=http/1.1, skip-cert-verify=true
-
-美国(US) = anytls, awefd2313fefarg23fr24.pnuqcnp.cn, 443, password=9sK2mP8xQ7vL3nZ6, sni=images.ctfassets.net, alpn=http/1.1, skip-cert-verify=true
-
-新加坡(SG) = anytls, ac7548f3ebe045b39a90288ff1e97526.pnuqcnp.cn, 443, password=9sK2mP8xQ7vL3nZ6, sni=ac7548f3ebe045b39a90288ff1e97526.lwdnxf.cn, alpn=http/1.1, skip-cert-verify=true
-
-意大利(IT) = anytls, ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn, 443, password=9sK2mP8xQ7vL3nZ6, sni=ac7548f3ebe045b39a90288ff1e97528.lwdnxf.cn, alpn=http/1.1, skip-cert-verify=true
-
-香港 = anytls, ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn, 443, password=9sK2mP8xQ7vL3nZ6, sni=ac7548f3ebe045b39a90288ff1e97528.lwdnxf.cn, alpn=http/1.1, skip-cert-verify=true
-
-美国 = anytls, awefd2313fefarg23fr24.pnuqcnp.cn, 443, password=9sK2mP8xQ7vL3nZ6, sni=images.ctfassets.net, alpn=http/1.1, skip-cert-verify=true
-
-新加坡 = anytls, 6ivh.pnuqcnp.cn, 443, password=9sK2mP8xQ7vL3nZ6, sni=images.ctfassets.net, alpn=http/1.1, skip-cert-verify=true
+香港(HK) = anytls, 8uhb.pnuqcnp.cn, 443, password=9sK2mP8xQ7vL3nZ6, sni=images.ctfassets.net, skip-cert-verify=true, alpn=http/1.1, udp-relay=true
+美国(US) = anytls, awefd2313fefarg23fr24.pnuqcnp.cn, 443, password=9sK2mP8xQ7vL3nZ6, sni=images.ctfassets.net, skip-cert-verify=true, alpn=http/1.1, udp-relay=true
+新加坡(SG) = anytls, 6ivh.pnuqcnp.cn, 443, password=9sK2mP8xQ7vL3nZ6, sni=images.ctfassets.net, skip-cert-verify=true, alpn=http/1.1, udp-relay=true
+日本(JP) = anytls, ac7548f3ebe045b39a90288ff1e97526.pnuqcnp.cn, 443, password=9sK2mP8xQ7vL3nZ6, sni=ac7548f3ebe045b39a90288ff1e97526.lwdnxf.cn, skip-cert-verify=true, alpn=http/1.1, udp-relay=true
+香港(HK) · 2 = anytls, 8uhb.pnuqcnp.cn, 443, password=9sK2mP8xQ7vL3nZ6, sni=images.ctfassets.net, skip-cert-verify=true, alpn=http/1.1, udp-relay=true, server-cert-fingerprint-sha256=7EA8C7D3FA0F65C75A7A9C4244ABF700CC203B6D2F76282E115C2363A745A32A
+美国(US) · 2 = anytls, awefd2313fefarg23fr24.pnuqcnp.cn, 443, password=9sK2mP8xQ7vL3nZ6, sni=images.ctfassets.net, skip-cert-verify=true, alpn=http/1.1, udp-relay=true, server-cert-fingerprint-sha256=9BEF062AC221DD1F95CD5456893F1C5167701322967A8F4235BBF21C7066386E
+新加坡(SG) · 2 = anytls, ac7548f3ebe045b39a90288ff1e97526.pnuqcnp.cn, 443, password=9sK2mP8xQ7vL3nZ6, sni=ac7548f3ebe045b39a90288ff1e97526.lwdnxf.cn, skip-cert-verify=true, alpn=http/1.1, udp-relay=true, server-cert-fingerprint-sha256=F87CF776CDA5EF9C1D4047831205E09C7E3A75335E016179038CC1020C840686
+意大利(IT) = anytls, ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn, 443, password=9sK2mP8xQ7vL3nZ6, sni=ac7548f3ebe045b39a90288ff1e97528.lwdnxf.cn, skip-cert-verify=true, alpn=http/1.1, udp-relay=true, server-cert-fingerprint-sha256=F87CF776CDA5EF9C1D4047831205E09C7E3A75335E016179038CC1020C840686
+香港 = anytls, ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn, 443, password=9sK2mP8xQ7vL3nZ6, sni=ac7548f3ebe045b39a90288ff1e97528.lwdnxf.cn, skip-cert-verify=true, alpn=http/1.1, udp-relay=true
+美国 = anytls, awefd2313fefarg23fr24.pnuqcnp.cn, 443, password=9sK2mP8xQ7vL3nZ6, sni=images.ctfassets.net, skip-cert-verify=true, alpn=http/1.1, udp-relay=true
+新加坡 = anytls, 6ivh.pnuqcnp.cn, 443, password=9sK2mP8xQ7vL3nZ6, sni=images.ctfassets.net, skip-cert-verify=true, alpn=http/1.1, udp-relay=true
