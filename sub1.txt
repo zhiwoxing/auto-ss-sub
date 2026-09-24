@@ -6,13 +6,6 @@ anytls://9sK2mP8xQ7vL3nZ6@ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn:443?securi
 anytls://9sK2mP8xQ7vL3nZ6@awefd2313fefarg23fr24.pnuqcnp.cn:443?security=tls&sni=images.ctfassets.net&alpn=http%2F1.1&insecure=1&fp=chrome#%E7%BE%8E%E5%9B%BD
 anytls://9sK2mP8xQ7vL3nZ6@6ivh.pnuqcnp.cn:443?security=tls&sni=images.ctfassets.net&alpn=http%2F1.1&insecure=1&fp=chrome#%E6%96%B0%E5%8A%A0%E5%9D%A1
 
-vless=jumpernode.online:443, method=none, password=ce7beb9a-5dc1-47b3-b3ff-94521430c446, obfs=over-tls, obfs-host=yp.amazon.com, reality-base64-pubkey=sDKrtAJk2VP_w1w7cFi2O86RdlvQ2E2An5xsRdJlgGE, reality-hex-shortid=5ea30fc4, vless-flow=xtls-rprx-vision, tag=USA-JNG1 VIP
-vless=usanbnode.jumpernode.online:443, method=none, password=ffe0a6ce-07f0-4146-910f-74bdce2f9697, obfs=over-tls, obfs-host=konrad-test.amazon.com, reality-base64-pubkey=9scNoKQky3ncRRW5yZqWlTU9cChQAK5rCpM6xfVQR3g, reality-hex-shortid=71b83607c5c0, vless-flow=xtls-rprx-vision, tag=USA-NBNGD1 VIP
-vless=jumpernode.online:443, method=none, password=23af32ca-bea1-4a5e-bebb-04d1b1b633bc, obfs=over-tls, obfs-host=amazon.com, reality-base64-pubkey=sDKrtAJk2VP_w1w7cFi2O86RdlvQ2E2An5xsRdJlgGE, reality-hex-shortid=786320285b8e0a3f, vless-flow=xtls-rprx-vision, tag=HongKong-JNG1 VIP
-vless=xxxtestnode.jumpernode.online:19012, method=none, password=b1b467a6-d252-415b-9a2d-bfce776409ed, obfs=over-tls, obfs-host=www.sony.com, reality-base64-pubkey=PD28IBZZKPBIZkYaLy7PZTwBBMwLg5nN9wmI2w6wDUU, reality-hex-shortid=3b7d7a1d8899, vless-flow=xtls-rprx-vision, tag=HongKong-NG1 VIP
-vless=signodels.jumpernode.online:443, method=none, password=051fbf39-789a-4017-9022-eb32daeb5efd, obfs=over-tls, obfs-host=shop.business.amazon.com, reality-base64-pubkey=Q8vb7a7wHy2nB-9fVuVeeizz9efta09IHHmC-mRbgQw, reality-hex-shortid=334b080fa37c42f4, vless-flow=xtls-rprx-vision, tag=SG-NGD1 VIP
-vless=jumpernode.online:443, method=none, password=440f986b-9469-4d80-adf0-01ba37af73c5, obfs=over-tls, obfs-host=home.amazon.com, reality-base64-pubkey=sDKrtAJk2VP_w1w7cFi2O86RdlvQ2E2An5xsRdJlgGE, reality-hex-shortid=e27219911301, vless-flow=xtls-rprx-vision, tag=SG-JNG1 VIP
-vless=defrnode.jumpernode.online:443, method=none, password=8af93649-403b-46d8-9966-923d4c58402c, obfs=over-tls, obfs-host=buckeye-retail-website.amazon.com, reality-base64-pubkey=XTarABsaaFbjYNk6lRKnUzGavHzeqMIP7B8dZGNCvkE, reality-hex-shortid=5c6481cdd4, vless-flow=xtls-rprx-vision, tag=DE-FRA-NG1 VIP
 
 
 anytls=8uhb.pnuqcnp.cn:443, password=9sK2mP8xQ7vL3nZ6, over-tls=true, tls-host=images.ctfassets.net, udp-relay=true, tls-alpn=08687474702f312e31, tls-verification=false, tag=香港(HK)
