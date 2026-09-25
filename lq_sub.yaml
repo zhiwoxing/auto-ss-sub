@@ -33,438 +33,253 @@ dns:
 
 proxies:
 
-  - name: "香港(HK)"
-    type: vmess
-    server: "654168416355441.oylfmxz.cn"
-    port: 443
-    uuid: "d90e4077-bc7e-414d-a650-70bf1baae4d6"
-    alterId: 0
-    cipher: "auto"
+  - name: "日本-01(低延迟-流媒体解锁)"
+    type: vless
+    server: "106.75.143.18"
+    port: 5000
+    uuid: "e6c403a7-2207-424f-a656-a91b01a3fae4"
     udp: true
     tls: true
     skip-cert-verify: false
-    servername: "654168416355441.oylfmxz.cn"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "654168416355441.oylfmxz.cn"
-  - name: "美国(US)"
-    type: vmess
-    server: "654168416355441.oylfmxz.cn"
-    port: 443
-    uuid: "d90e4077-bc7e-414d-a650-70bf1baae4d6"
-    alterId: 0
-    cipher: "auto"
+    servername: "buylite.tv.apple.com"
+    reality-opts:
+      public-key: "_9RItE-b_UsAMkpTgMAJhaiXBl5AUP7jF-OfCDLXKQg"
+      short-id: "0c053931"
+    client-fingerprint: "chrome"
+  - name: "英国-01(欧洲节点-流媒体解锁)"
+    type: vless
+    server: "106.75.143.18"
+    port: 5001
+    uuid: "e6c403a7-2207-424f-a656-a91b01a3fae4"
     udp: true
     tls: true
     skip-cert-verify: false
-    servername: "654168416355441.oylfmxz.cn"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "654168416355441.oylfmxz.cn"
-  - name: "新加坡(SG)"
-    type: vmess
-    server: "654168416355441.oylfmxz.cn"
-    port: 443
-    uuid: "d90e4077-bc7e-414d-a650-70bf1baae4d6"
-    alterId: 0
-    cipher: "auto"
+    servername: "buylite.tv.apple.com"
+    reality-opts:
+      public-key: "EecQif_ZCfTUatHuhKQc88WhGTU18eEMuc6N-K9t2EM"
+      short-id: "839cc7cf"
+    client-fingerprint: "chrome"
+  - name: "英国-02(欧洲节点-流媒体解锁)"
+    type: vless
+    server: "106.75.143.18"
+    port: 5002
+    uuid: "e6c403a7-2207-424f-a656-a91b01a3fae4"
     udp: true
     tls: true
     skip-cert-verify: false
-    servername: "654168416355441.oylfmxz.cn"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "654168416355441.oylfmxz.cn"
-  - name: "德国(DE)"
-    type: vmess
-    server: "654168416355441.oylfmxz.cn"
-    port: 443
-    uuid: "d90e4077-bc7e-414d-a650-70bf1baae4d6"
-    alterId: 0
-    cipher: "auto"
+    servername: "buylite.tv.apple.com"
+    reality-opts:
+      public-key: "CavI6KaZ1wEJkxRWhiProUaMjjdVYMhCJScYoXZqrxU"
+      short-id: "a2362ad4"
+    client-fingerprint: "chrome"
+  - name: "美国-01(大带宽-ChatGPT)"
+    type: vless
+    server: "106.75.143.18"
+    port: 5003
+    uuid: "e6c403a7-2207-424f-a656-a91b01a3fae4"
     udp: true
     tls: true
     skip-cert-verify: false
-    servername: "654168416355441.oylfmxz.cn"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "654168416355441.oylfmxz.cn"
-  - name: "英国(GB)"
-    type: vmess
-    server: "654168416355441.oylfmxz.cn"
-    port: 443
-    uuid: "d90e4077-bc7e-414d-a650-70bf1baae4d6"
-    alterId: 0
-    cipher: "auto"
+    servername: "buylite.tv.apple.com"
+    reality-opts:
+      public-key: "b-nudr-UcMPMjjUGZ0SmQwS54I5vjJ21cStsB4AFWCI"
+      short-id: "4a1d37fa"
+    client-fingerprint: "chrome"
+  - name: "美国-02(大带宽-流媒体解锁)"
+    type: vless
+    server: "106.75.143.18"
+    port: 5004
+    uuid: "e6c403a7-2207-424f-a656-a91b01a3fae4"
     udp: true
     tls: true
     skip-cert-verify: false
-    servername: "654168416355441.oylfmxz.cn"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "654168416355441.oylfmxz.cn"
-  - name: "法国(FR)"
-    type: vmess
-    server: "654168416355441.oylfmxz.cn"
-    port: 443
-    uuid: "d90e4077-bc7e-414d-a650-70bf1baae4d6"
-    alterId: 0
-    cipher: "auto"
+    servername: "buylite.tv.apple.com"
+    reality-opts:
+      public-key: "4pqef6kcGAisRnc-b8wcDAaB0GWknHBq9ONCenilFCs"
+      short-id: "57ae1667"
+    client-fingerprint: "chrome"
+  - name: "美国-03(大带宽-流媒体解锁)"
+    type: vless
+    server: "106.75.143.18"
+    port: 5005
+    uuid: "e6c403a7-2207-424f-a656-a91b01a3fae4"
     udp: true
     tls: true
     skip-cert-verify: false
-    servername: "654168416355441.oylfmxz.cn"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "654168416355441.oylfmxz.cn"
-  - name: "日本(JP)"
-    type: vmess
-    server: "654168416355441.oylfmxz.cn"
-    port: 443
-    uuid: "d90e4077-bc7e-414d-a650-70bf1baae4d6"
-    alterId: 0
-    cipher: "auto"
+    servername: "buylite.tv.apple.com"
+    reality-opts:
+      public-key: "r5a56eKjx1Zga_qJW7jgqWBB3WvEtWrgA0xfLVIXHgk"
+      short-id: "465f2d7c"
+    client-fingerprint: "chrome"
+  - name: "美国-04(大带宽-ChatGPT)"
+    type: vless
+    server: "106.75.143.18"
+    port: 5006
+    uuid: "e6c403a7-2207-424f-a656-a91b01a3fae4"
     udp: true
     tls: true
     skip-cert-verify: false
-    servername: "654168416355441.oylfmxz.cn"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "654168416355441.oylfmxz.cn"
-  - name: "加拿大(CA)"
-    type: vmess
-    server: "654168416355441.oylfmxz.cn"
-    port: 443
-    uuid: "d90e4077-bc7e-414d-a650-70bf1baae4d6"
-    alterId: 0
-    cipher: "auto"
+    servername: "buylite.tv.apple.com"
+    reality-opts:
+      public-key: "cOArfRrVqPfeoNKUtlGZ_eklkgB5m2kK94u4b8fu82k"
+      short-id: "9b7dc8a6"
+    client-fingerprint: "chrome"
+  - name: "美国-05(大带宽-流媒体解锁)"
+    type: vless
+    server: "106.75.143.18"
+    port: 5007
+    uuid: "e6c403a7-2207-424f-a656-a91b01a3fae4"
     udp: true
     tls: true
     skip-cert-verify: false
-    servername: "654168416355441.oylfmxz.cn"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "654168416355441.oylfmxz.cn"
-  - name: "巴西(BR)"
-    type: vmess
-    server: "654168416355441.oylfmxz.cn"
-    port: 443
-    uuid: "d90e4077-bc7e-414d-a650-70bf1baae4d6"
-    alterId: 0
-    cipher: "auto"
+    servername: "buylite.tv.apple.com"
+    reality-opts:
+      public-key: "W1tIXK5sUUU0Zrj2OENNl-Zc5QijpG52JKTPvqSvNX8"
+      short-id: "7d3decd6"
+    client-fingerprint: "chrome"
+  - name: "英国-03(欧洲节点-隐私保护)"
+    type: vless
+    server: "106.75.143.18"
+    port: 5008
+    uuid: "e6c403a7-2207-424f-a656-a91b01a3fae4"
     udp: true
     tls: true
     skip-cert-verify: false
-    servername: "654168416355441.oylfmxz.cn"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "654168416355441.oylfmxz.cn"
-  - name: "韩国(KR)"
-    type: vmess
-    server: "654168416355441.oylfmxz.cn"
-    port: 443
-    uuid: "d90e4077-bc7e-414d-a650-70bf1baae4d6"
-    alterId: 0
-    cipher: "auto"
+    servername: "buylite.tv.apple.com"
+    reality-opts:
+      public-key: "tGvWefQ1RJD0_sdWLakaiubKbw2z8eRkR-kGDHMIpgA"
+      short-id: "28b484ad"
+    client-fingerprint: "chrome"
+  - name: "日本-02(低延迟-游戏加速)"
+    type: vless
+    server: "106.75.143.18"
+    port: 5009
+    uuid: "e6c403a7-2207-424f-a656-a91b01a3fae4"
     udp: true
     tls: true
     skip-cert-verify: false
-    servername: "654168416355441.oylfmxz.cn"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "654168416355441.oylfmxz.cn"
-  - name: "意大利(IT)"
-    type: vmess
-    server: "654168416355441.oylfmxz.cn"
-    port: 443
-    uuid: "d90e4077-bc7e-414d-a650-70bf1baae4d6"
-    alterId: 0
-    cipher: "auto"
+    servername: "buylite.tv.apple.com"
+    reality-opts:
+      public-key: "2MRkhbOh0xFKG_iP_ehCZEG_lQUdYskA44MRlCbwtEU"
+      short-id: "5df9a165"
+    client-fingerprint: "chrome"
+  - name: "日本-03(低延迟-游戏加速)"
+    type: vless
+    server: "106.75.143.18"
+    port: 5010
+    uuid: "e6c403a7-2207-424f-a656-a91b01a3fae4"
     udp: true
     tls: true
     skip-cert-verify: false
-    servername: "654168416355441.oylfmxz.cn"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "654168416355441.oylfmxz.cn"
-  - name: "挪威(NO)"
-    type: vmess
-    server: "654168416355441.oylfmxz.cn"
-    port: 443
-    uuid: "d90e4077-bc7e-414d-a650-70bf1baae4d6"
-    alterId: 0
-    cipher: "auto"
+    servername: "buylite.tv.apple.com"
+    reality-opts:
+      public-key: "jW2ybiAJXOlwel1NPLI6Kmzj7rjSiAyvqiatDlUq6So"
+      short-id: "cde516c9"
+    client-fingerprint: "chrome"
+  - name: "日本-04(低延迟-流媒体解锁)"
+    type: vless
+    server: "106.75.143.18"
+    port: 5011
+    uuid: "e6c403a7-2207-424f-a656-a91b01a3fae4"
     udp: true
     tls: true
     skip-cert-verify: false
-    servername: "654168416355441.oylfmxz.cn"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "654168416355441.oylfmxz.cn"
-  - name: "瑞典(SE)"
-    type: vmess
-    server: "654168416355441.oylfmxz.cn"
-    port: 443
-    uuid: "d90e4077-bc7e-414d-a650-70bf1baae4d6"
-    alterId: 0
-    cipher: "auto"
+    servername: "buylite.tv.apple.com"
+    reality-opts:
+      public-key: "SCKPUmFnxhMmWB8pukNJArqtWVZV4G7zeClrOUwXjjw"
+      short-id: "87991e38"
+    client-fingerprint: "chrome"
+  - name: "台湾-01(低延迟-繁体内容)"
+    type: vless
+    server: "106.75.143.18"
+    port: 5015
+    uuid: "e6c403a7-2207-424f-a656-a91b01a3fae4"
     udp: true
     tls: true
     skip-cert-verify: false
-    servername: "654168416355441.oylfmxz.cn"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "654168416355441.oylfmxz.cn"
-  - name: "澳大利亚(AU)"
-    type: vmess
-    server: "654168416355441.oylfmxz.cn"
-    port: 443
-    uuid: "d90e4077-bc7e-414d-a650-70bf1baae4d6"
-    alterId: 0
-    cipher: "auto"
+    servername: "buylite.tv.apple.com"
+    reality-opts:
+      public-key: "Ovm5aUXrAx3zbb9XkCX2G5Jv8x9uJHvYYHMpi6J7Jjo"
+      short-id: "6e72bbc4"
+    client-fingerprint: "chrome"
+  - name: "台湾-02(低延迟-游戏加速)"
+    type: vless
+    server: "106.75.143.18"
+    port: 5016
+    uuid: "e6c403a7-2207-424f-a656-a91b01a3fae4"
     udp: true
     tls: true
     skip-cert-verify: false
-    servername: "654168416355441.oylfmxz.cn"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "654168416355441.oylfmxz.cn"
-  - name: "印度(IN)"
-    type: vmess
-    server: "654168416355441.oylfmxz.cn"
-    port: 443
-    uuid: "d90e4077-bc7e-414d-a650-70bf1baae4d6"
-    alterId: 0
-    cipher: "auto"
+    servername: "buylite.tv.apple.com"
+    reality-opts:
+      public-key: "QY6okwYg8SY6gW41QKg6poorjUP9y2YwoCW_Rp05IBI"
+      short-id: "170b54d7"
+    client-fingerprint: "chrome"
+  - name: "台湾-03(低延迟-繁体内容)"
+    type: vless
+    server: "106.75.143.18"
+    port: 5017
+    uuid: "e6c403a7-2207-424f-a656-a91b01a3fae4"
     udp: true
     tls: true
     skip-cert-verify: false
-    servername: "654168416355441.oylfmxz.cn"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "654168416355441.oylfmxz.cn"
-  - name: "乌克兰(UA)"
-    type: vmess
-    server: "654168416355441.oylfmxz.cn"
-    port: 443
-    uuid: "d90e4077-bc7e-414d-a650-70bf1baae4d6"
-    alterId: 0
-    cipher: "auto"
+    servername: "buylite.tv.apple.com"
+    reality-opts:
+      public-key: "15COnE_UiNGuhF_dDj--DQX9dRPkphi-yTJ-YO2w9SI"
+      short-id: "c26967b9"
+    client-fingerprint: "chrome"
+  - name: "日本-05(低延迟-ChatGPT)"
+    type: vless
+    server: "106.75.143.18"
+    port: 5018
+    uuid: "e6c403a7-2207-424f-a656-a91b01a3fae4"
     udp: true
     tls: true
     skip-cert-verify: false
-    servername: "654168416355441.oylfmxz.cn"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "654168416355441.oylfmxz.cn"
-  - name: "墨西哥(MX)"
-    type: vmess
-    server: "654168416355441.oylfmxz.cn"
-    port: 443
-    uuid: "d90e4077-bc7e-414d-a650-70bf1baae4d6"
-    alterId: 0
-    cipher: "auto"
+    servername: "buylite.tv.apple.com"
+    reality-opts:
+      public-key: "ub08z6M80Ddag6E0UbHUVJZfXnwiOrdEi3SoE7t_rRw"
+      short-id: "5c817501"
+    client-fingerprint: "chrome"
+  - name: "香港-02"
+    type: vless
+    server: "106.75.143.18"
+    port: 5020
+    uuid: "e6c403a7-2207-424f-a656-a91b01a3fae4"
     udp: true
     tls: true
     skip-cert-verify: false
-    servername: "654168416355441.oylfmxz.cn"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "654168416355441.oylfmxz.cn"
-  - name: "俄罗斯(RU)"
-    type: vmess
-    server: "654168416355441.oylfmxz.cn"
-    port: 443
-    uuid: "d90e4077-bc7e-414d-a650-70bf1baae4d6"
-    alterId: 0
-    cipher: "auto"
+    servername: "buylite.tv.apple.com"
+    reality-opts:
+      public-key: "dROhuswwq-4NajAw8xbf3WDKw33fGDtXr1JdrdSCp0M"
+      short-id: "269707f8"
+    client-fingerprint: "chrome"
+  - name: "香港-03"
+    type: vless
+    server: "106.75.143.18"
+    port: 5021
+    uuid: "e6c403a7-2207-424f-a656-a91b01a3fae4"
     udp: true
     tls: true
     skip-cert-verify: false
-    servername: "654168416355441.oylfmxz.cn"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "654168416355441.oylfmxz.cn"
-  - name: "新西兰(NZ)"
-    type: vmess
-    server: "654168416355441.oylfmxz.cn"
-    port: 443
-    uuid: "d90e4077-bc7e-414d-a650-70bf1baae4d6"
-    alterId: 0
-    cipher: "auto"
+    servername: "buylite.tv.apple.com"
+    reality-opts:
+      public-key: "XoaUJoDO-yi9N1UJ7cOXFbIId9dCYwdNruvf2iR33xY"
+      short-id: "f1a3ff8a"
+    client-fingerprint: "chrome"
+  - name: "新加坡-01"
+    type: vless
+    server: "106.75.143.18"
+    port: 4022
+    uuid: "e6c403a7-2207-424f-a656-a91b01a3fae4"
     udp: true
     tls: true
     skip-cert-verify: false
-    servername: "654168416355441.oylfmxz.cn"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "654168416355441.oylfmxz.cn"
-  - name: "马来西亚(MY)"
-    type: vmess
-    server: "654168416355441.oylfmxz.cn"
-    port: 443
-    uuid: "d90e4077-bc7e-414d-a650-70bf1baae4d6"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    skip-cert-verify: false
-    servername: "654168416355441.oylfmxz.cn"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "654168416355441.oylfmxz.cn"
-  - name: "泰国(TH)"
-    type: vmess
-    server: "654168416355441.oylfmxz.cn"
-    port: 443
-    uuid: "d90e4077-bc7e-414d-a650-70bf1baae4d6"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    skip-cert-verify: false
-    servername: "654168416355441.oylfmxz.cn"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "654168416355441.oylfmxz.cn"
-  - name: "菲律宾(PH)"
-    type: vmess
-    server: "654168416355441.oylfmxz.cn"
-    port: 443
-    uuid: "d90e4077-bc7e-414d-a650-70bf1baae4d6"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    skip-cert-verify: false
-    servername: "654168416355441.oylfmxz.cn"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "654168416355441.oylfmxz.cn"
-  - name: "西班牙(ES)"
-    type: vmess
-    server: "654168416355441.oylfmxz.cn"
-    port: 443
-    uuid: "d90e4077-bc7e-414d-a650-70bf1baae4d6"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    skip-cert-verify: false
-    servername: "654168416355441.oylfmxz.cn"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "654168416355441.oylfmxz.cn"
-  - name: "瑞士(CH)"
-    type: vmess
-    server: "24864168545164.oylfmxz.cn"
-    port: 443
-    uuid: "d90e4077-bc7e-414d-a650-70bf1baae4d6"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    skip-cert-verify: false
-    servername: "24864168545164.oylfmxz.cn"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "24864168545164.oylfmxz.cn"
-  - name: "阿联酋(AE)"
-    type: vmess
-    server: "24864168545164.oylfmxz.cn"
-    port: 443
-    uuid: "d90e4077-bc7e-414d-a650-70bf1baae4d6"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    skip-cert-verify: false
-    servername: "24864168545164.oylfmxz.cn"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "24864168545164.oylfmxz.cn"
-  - name: "爱尔兰(IE)"
-    type: vmess
-    server: "24864168545164.oylfmxz.cn"
-    port: 443
-    uuid: "d90e4077-bc7e-414d-a650-70bf1baae4d6"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    skip-cert-verify: false
-    servername: "24864168545164.oylfmxz.cn"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "24864168545164.oylfmxz.cn"
-  - name: "印尼(ID)"
-    type: vmess
-    server: "24864168545164.oylfmxz.cn"
-    port: 443
-    uuid: "d90e4077-bc7e-414d-a650-70bf1baae4d6"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    skip-cert-verify: false
-    servername: "24864168545164.oylfmxz.cn"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "24864168545164.oylfmxz.cn"
+    servername: "buylite.tv.apple.com"
+    reality-opts:
+      public-key: "2g8FZHxPWjphq568-OS8ypk7qb76HiMhWua0UAJfOl8"
+      short-id: "ace0f99d"
+    client-fingerprint: "chrome"
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -472,66 +287,50 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - "DIRECT"
-      - "香港(HK)"
-      - "美国(US)"
-      - "新加坡(SG)"
-      - "德国(DE)"
-      - "英国(GB)"
-      - "法国(FR)"
-      - "日本(JP)"
-      - "加拿大(CA)"
-      - "巴西(BR)"
-      - "韩国(KR)"
-      - "意大利(IT)"
-      - "挪威(NO)"
-      - "瑞典(SE)"
-      - "澳大利亚(AU)"
-      - "印度(IN)"
-      - "乌克兰(UA)"
-      - "墨西哥(MX)"
-      - "俄罗斯(RU)"
-      - "新西兰(NZ)"
-      - "马来西亚(MY)"
-      - "泰国(TH)"
-      - "菲律宾(PH)"
-      - "西班牙(ES)"
-      - "瑞士(CH)"
-      - "阿联酋(AE)"
-      - "爱尔兰(IE)"
-      - "印尼(ID)"
+      - "日本-01(低延迟-流媒体解锁)"
+      - "英国-01(欧洲节点-流媒体解锁)"
+      - "英国-02(欧洲节点-流媒体解锁)"
+      - "美国-01(大带宽-ChatGPT)"
+      - "美国-02(大带宽-流媒体解锁)"
+      - "美国-03(大带宽-流媒体解锁)"
+      - "美国-04(大带宽-ChatGPT)"
+      - "美国-05(大带宽-流媒体解锁)"
+      - "英国-03(欧洲节点-隐私保护)"
+      - "日本-02(低延迟-游戏加速)"
+      - "日本-03(低延迟-游戏加速)"
+      - "日本-04(低延迟-流媒体解锁)"
+      - "台湾-01(低延迟-繁体内容)"
+      - "台湾-02(低延迟-游戏加速)"
+      - "台湾-03(低延迟-繁体内容)"
+      - "日本-05(低延迟-ChatGPT)"
+      - "香港-02"
+      - "香港-03"
+      - "新加坡-01"
   - name: "♻️ 自动选择"
     type: url-test
     url: "http://www.gstatic.com/generate_204"
     interval: 300
     tolerance: 50
     proxies:
-      - "香港(HK)"
-      - "美国(US)"
-      - "新加坡(SG)"
-      - "德国(DE)"
-      - "英国(GB)"
-      - "法国(FR)"
-      - "日本(JP)"
-      - "加拿大(CA)"
-      - "巴西(BR)"
-      - "韩国(KR)"
-      - "意大利(IT)"
-      - "挪威(NO)"
-      - "瑞典(SE)"
-      - "澳大利亚(AU)"
-      - "印度(IN)"
-      - "乌克兰(UA)"
-      - "墨西哥(MX)"
-      - "俄罗斯(RU)"
-      - "新西兰(NZ)"
-      - "马来西亚(MY)"
-      - "泰国(TH)"
-      - "菲律宾(PH)"
-      - "西班牙(ES)"
-      - "瑞士(CH)"
-      - "阿联酋(AE)"
-      - "爱尔兰(IE)"
-      - "印尼(ID)"
+      - "日本-01(低延迟-流媒体解锁)"
+      - "英国-01(欧洲节点-流媒体解锁)"
+      - "英国-02(欧洲节点-流媒体解锁)"
+      - "美国-01(大带宽-ChatGPT)"
+      - "美国-02(大带宽-流媒体解锁)"
+      - "美国-03(大带宽-流媒体解锁)"
+      - "美国-04(大带宽-ChatGPT)"
+      - "美国-05(大带宽-流媒体解锁)"
+      - "英国-03(欧洲节点-隐私保护)"
+      - "日本-02(低延迟-游戏加速)"
+      - "日本-03(低延迟-游戏加速)"
+      - "日本-04(低延迟-流媒体解锁)"
+      - "台湾-01(低延迟-繁体内容)"
+      - "台湾-02(低延迟-游戏加速)"
+      - "台湾-03(低延迟-繁体内容)"
+      - "日本-05(低延迟-ChatGPT)"
+      - "香港-02"
+      - "香港-03"
+      - "新加坡-01"
   - name: "🎯 全球直连"
     type: select
     proxies:
@@ -549,33 +348,25 @@ proxy-groups:
       - "🚀 节点选择"
       - "🎯 全球直连"
       - "♻️ 自动选择"
-      - "香港(HK)"
-      - "美国(US)"
-      - "新加坡(SG)"
-      - "德国(DE)"
-      - "英国(GB)"
-      - "法国(FR)"
-      - "日本(JP)"
-      - "加拿大(CA)"
-      - "巴西(BR)"
-      - "韩国(KR)"
-      - "意大利(IT)"
-      - "挪威(NO)"
-      - "瑞典(SE)"
-      - "澳大利亚(AU)"
-      - "印度(IN)"
-      - "乌克兰(UA)"
-      - "墨西哥(MX)"
-      - "俄罗斯(RU)"
-      - "新西兰(NZ)"
-      - "马来西亚(MY)"
-      - "泰国(TH)"
-      - "菲律宾(PH)"
-      - "西班牙(ES)"
-      - "瑞士(CH)"
-      - "阿联酋(AE)"
-      - "爱尔兰(IE)"
-      - "印尼(ID)"
+      - "日本-01(低延迟-流媒体解锁)"
+      - "英国-01(欧洲节点-流媒体解锁)"
+      - "英国-02(欧洲节点-流媒体解锁)"
+      - "美国-01(大带宽-ChatGPT)"
+      - "美国-02(大带宽-流媒体解锁)"
+      - "美国-03(大带宽-流媒体解锁)"
+      - "美国-04(大带宽-ChatGPT)"
+      - "美国-05(大带宽-流媒体解锁)"
+      - "英国-03(欧洲节点-隐私保护)"
+      - "日本-02(低延迟-游戏加速)"
+      - "日本-03(低延迟-游戏加速)"
+      - "日本-04(低延迟-流媒体解锁)"
+      - "台湾-01(低延迟-繁体内容)"
+      - "台湾-02(低延迟-游戏加速)"
+      - "台湾-03(低延迟-繁体内容)"
+      - "日本-05(低延迟-ChatGPT)"
+      - "香港-02"
+      - "香港-03"
+      - "新加坡-01"
 
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
