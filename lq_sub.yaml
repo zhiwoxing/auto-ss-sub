@@ -33,11 +33,11 @@ dns:
 
 proxies:
 
-  - name: "日本-01(低延迟-流媒体解锁)"
+  - name: "日本-01"
     type: vless
     server: "106.75.143.18"
     port: 5000
-    uuid: "e6c403a7-2207-424f-a656-a91b01a3fae4"
+    uuid: "731d8af3-2b52-4427-a958-d485bf1a6e8a"
     udp: true
     tls: true
     skip-cert-verify: false
@@ -46,11 +46,11 @@ proxies:
       public-key: "_9RItE-b_UsAMkpTgMAJhaiXBl5AUP7jF-OfCDLXKQg"
       short-id: "0c053931"
     client-fingerprint: "chrome"
-  - name: "英国-01(欧洲节点-流媒体解锁)"
+  - name: "英国-01"
     type: vless
     server: "106.75.143.18"
     port: 5001
-    uuid: "e6c403a7-2207-424f-a656-a91b01a3fae4"
+    uuid: "731d8af3-2b52-4427-a958-d485bf1a6e8a"
     udp: true
     tls: true
     skip-cert-verify: false
@@ -59,11 +59,11 @@ proxies:
       public-key: "EecQif_ZCfTUatHuhKQc88WhGTU18eEMuc6N-K9t2EM"
       short-id: "839cc7cf"
     client-fingerprint: "chrome"
-  - name: "英国-02(欧洲节点-流媒体解锁)"
+  - name: "英国-02"
     type: vless
     server: "106.75.143.18"
     port: 5002
-    uuid: "e6c403a7-2207-424f-a656-a91b01a3fae4"
+    uuid: "731d8af3-2b52-4427-a958-d485bf1a6e8a"
     udp: true
     tls: true
     skip-cert-verify: false
@@ -72,11 +72,11 @@ proxies:
       public-key: "CavI6KaZ1wEJkxRWhiProUaMjjdVYMhCJScYoXZqrxU"
       short-id: "a2362ad4"
     client-fingerprint: "chrome"
-  - name: "美国-01(大带宽-ChatGPT)"
+  - name: "美国-01"
     type: vless
     server: "106.75.143.18"
     port: 5003
-    uuid: "e6c403a7-2207-424f-a656-a91b01a3fae4"
+    uuid: "731d8af3-2b52-4427-a958-d485bf1a6e8a"
     udp: true
     tls: true
     skip-cert-verify: false
@@ -85,11 +85,11 @@ proxies:
       public-key: "b-nudr-UcMPMjjUGZ0SmQwS54I5vjJ21cStsB4AFWCI"
       short-id: "4a1d37fa"
     client-fingerprint: "chrome"
-  - name: "美国-02(大带宽-流媒体解锁)"
+  - name: "美国-02"
     type: vless
     server: "106.75.143.18"
     port: 5004
-    uuid: "e6c403a7-2207-424f-a656-a91b01a3fae4"
+    uuid: "731d8af3-2b52-4427-a958-d485bf1a6e8a"
     udp: true
     tls: true
     skip-cert-verify: false
@@ -98,11 +98,11 @@ proxies:
       public-key: "4pqef6kcGAisRnc-b8wcDAaB0GWknHBq9ONCenilFCs"
       short-id: "57ae1667"
     client-fingerprint: "chrome"
-  - name: "美国-03(大带宽-流媒体解锁)"
+  - name: "美国-03"
     type: vless
     server: "106.75.143.18"
     port: 5005
-    uuid: "e6c403a7-2207-424f-a656-a91b01a3fae4"
+    uuid: "731d8af3-2b52-4427-a958-d485bf1a6e8a"
     udp: true
     tls: true
     skip-cert-verify: false
@@ -111,11 +111,11 @@ proxies:
       public-key: "r5a56eKjx1Zga_qJW7jgqWBB3WvEtWrgA0xfLVIXHgk"
       short-id: "465f2d7c"
     client-fingerprint: "chrome"
-  - name: "美国-04(大带宽-ChatGPT)"
+  - name: "美国-04"
     type: vless
     server: "106.75.143.18"
     port: 5006
-    uuid: "e6c403a7-2207-424f-a656-a91b01a3fae4"
+    uuid: "731d8af3-2b52-4427-a958-d485bf1a6e8a"
     udp: true
     tls: true
     skip-cert-verify: false
@@ -124,11 +124,11 @@ proxies:
       public-key: "cOArfRrVqPfeoNKUtlGZ_eklkgB5m2kK94u4b8fu82k"
       short-id: "9b7dc8a6"
     client-fingerprint: "chrome"
-  - name: "美国-05(大带宽-流媒体解锁)"
+  - name: "美国-05"
     type: vless
     server: "106.75.143.18"
     port: 5007
-    uuid: "e6c403a7-2207-424f-a656-a91b01a3fae4"
+    uuid: "731d8af3-2b52-4427-a958-d485bf1a6e8a"
     udp: true
     tls: true
     skip-cert-verify: false
@@ -137,11 +137,11 @@ proxies:
       public-key: "W1tIXK5sUUU0Zrj2OENNl-Zc5QijpG52JKTPvqSvNX8"
       short-id: "7d3decd6"
     client-fingerprint: "chrome"
-  - name: "英国-03(欧洲节点-隐私保护)"
+  - name: "英国-03"
     type: vless
     server: "106.75.143.18"
     port: 5008
-    uuid: "e6c403a7-2207-424f-a656-a91b01a3fae4"
+    uuid: "731d8af3-2b52-4427-a958-d485bf1a6e8a"
     udp: true
     tls: true
     skip-cert-verify: false
@@ -150,11 +150,11 @@ proxies:
       public-key: "tGvWefQ1RJD0_sdWLakaiubKbw2z8eRkR-kGDHMIpgA"
       short-id: "28b484ad"
     client-fingerprint: "chrome"
-  - name: "日本-02(低延迟-游戏加速)"
+  - name: "日本-02"
     type: vless
     server: "106.75.143.18"
     port: 5009
-    uuid: "e6c403a7-2207-424f-a656-a91b01a3fae4"
+    uuid: "731d8af3-2b52-4427-a958-d485bf1a6e8a"
     udp: true
     tls: true
     skip-cert-verify: false
@@ -163,11 +163,11 @@ proxies:
       public-key: "2MRkhbOh0xFKG_iP_ehCZEG_lQUdYskA44MRlCbwtEU"
       short-id: "5df9a165"
     client-fingerprint: "chrome"
-  - name: "日本-03(低延迟-游戏加速)"
+  - name: "日本-03"
     type: vless
     server: "106.75.143.18"
     port: 5010
-    uuid: "e6c403a7-2207-424f-a656-a91b01a3fae4"
+    uuid: "731d8af3-2b52-4427-a958-d485bf1a6e8a"
     udp: true
     tls: true
     skip-cert-verify: false
@@ -176,11 +176,11 @@ proxies:
       public-key: "jW2ybiAJXOlwel1NPLI6Kmzj7rjSiAyvqiatDlUq6So"
       short-id: "cde516c9"
     client-fingerprint: "chrome"
-  - name: "日本-04(低延迟-流媒体解锁)"
+  - name: "日本-04"
     type: vless
     server: "106.75.143.18"
     port: 5011
-    uuid: "e6c403a7-2207-424f-a656-a91b01a3fae4"
+    uuid: "731d8af3-2b52-4427-a958-d485bf1a6e8a"
     udp: true
     tls: true
     skip-cert-verify: false
@@ -189,11 +189,11 @@ proxies:
       public-key: "SCKPUmFnxhMmWB8pukNJArqtWVZV4G7zeClrOUwXjjw"
       short-id: "87991e38"
     client-fingerprint: "chrome"
-  - name: "台湾-01(低延迟-繁体内容)"
+  - name: "台湾-01"
     type: vless
     server: "106.75.143.18"
     port: 5015
-    uuid: "e6c403a7-2207-424f-a656-a91b01a3fae4"
+    uuid: "731d8af3-2b52-4427-a958-d485bf1a6e8a"
     udp: true
     tls: true
     skip-cert-verify: false
@@ -202,11 +202,11 @@ proxies:
       public-key: "Ovm5aUXrAx3zbb9XkCX2G5Jv8x9uJHvYYHMpi6J7Jjo"
       short-id: "6e72bbc4"
     client-fingerprint: "chrome"
-  - name: "台湾-02(低延迟-游戏加速)"
+  - name: "台湾-02"
     type: vless
     server: "106.75.143.18"
     port: 5016
-    uuid: "e6c403a7-2207-424f-a656-a91b01a3fae4"
+    uuid: "731d8af3-2b52-4427-a958-d485bf1a6e8a"
     udp: true
     tls: true
     skip-cert-verify: false
@@ -215,11 +215,11 @@ proxies:
       public-key: "QY6okwYg8SY6gW41QKg6poorjUP9y2YwoCW_Rp05IBI"
       short-id: "170b54d7"
     client-fingerprint: "chrome"
-  - name: "台湾-03(低延迟-繁体内容)"
+  - name: "台湾-03"
     type: vless
     server: "106.75.143.18"
     port: 5017
-    uuid: "e6c403a7-2207-424f-a656-a91b01a3fae4"
+    uuid: "731d8af3-2b52-4427-a958-d485bf1a6e8a"
     udp: true
     tls: true
     skip-cert-verify: false
@@ -228,11 +228,11 @@ proxies:
       public-key: "15COnE_UiNGuhF_dDj--DQX9dRPkphi-yTJ-YO2w9SI"
       short-id: "c26967b9"
     client-fingerprint: "chrome"
-  - name: "日本-05(低延迟-ChatGPT)"
+  - name: "日本-05"
     type: vless
     server: "106.75.143.18"
     port: 5018
-    uuid: "e6c403a7-2207-424f-a656-a91b01a3fae4"
+    uuid: "731d8af3-2b52-4427-a958-d485bf1a6e8a"
     udp: true
     tls: true
     skip-cert-verify: false
@@ -241,11 +241,24 @@ proxies:
       public-key: "ub08z6M80Ddag6E0UbHUVJZfXnwiOrdEi3SoE7t_rRw"
       short-id: "5c817501"
     client-fingerprint: "chrome"
+  - name: "香港-01"
+    type: vless
+    server: "106.75.143.18"
+    port: 5019
+    uuid: "731d8af3-2b52-4427-a958-d485bf1a6e8a"
+    udp: true
+    tls: true
+    skip-cert-verify: false
+    servername: "buylite.tv.apple.com"
+    reality-opts:
+      public-key: "KZi2htmbtBu56b2V4P_6fQnT5cvTU-wyLARLRCu-vTA"
+      short-id: "c6ae43a8"
+    client-fingerprint: "chrome"
   - name: "香港-02"
     type: vless
     server: "106.75.143.18"
     port: 5020
-    uuid: "e6c403a7-2207-424f-a656-a91b01a3fae4"
+    uuid: "731d8af3-2b52-4427-a958-d485bf1a6e8a"
     udp: true
     tls: true
     skip-cert-verify: false
@@ -258,7 +271,7 @@ proxies:
     type: vless
     server: "106.75.143.18"
     port: 5021
-    uuid: "e6c403a7-2207-424f-a656-a91b01a3fae4"
+    uuid: "731d8af3-2b52-4427-a958-d485bf1a6e8a"
     udp: true
     tls: true
     skip-cert-verify: false
@@ -271,7 +284,7 @@ proxies:
     type: vless
     server: "106.75.143.18"
     port: 4022
-    uuid: "e6c403a7-2207-424f-a656-a91b01a3fae4"
+    uuid: "731d8af3-2b52-4427-a958-d485bf1a6e8a"
     udp: true
     tls: true
     skip-cert-verify: false
@@ -287,22 +300,23 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - "DIRECT"
-      - "日本-01(低延迟-流媒体解锁)"
-      - "英国-01(欧洲节点-流媒体解锁)"
-      - "英国-02(欧洲节点-流媒体解锁)"
-      - "美国-01(大带宽-ChatGPT)"
-      - "美国-02(大带宽-流媒体解锁)"
-      - "美国-03(大带宽-流媒体解锁)"
-      - "美国-04(大带宽-ChatGPT)"
-      - "美国-05(大带宽-流媒体解锁)"
-      - "英国-03(欧洲节点-隐私保护)"
-      - "日本-02(低延迟-游戏加速)"
-      - "日本-03(低延迟-游戏加速)"
-      - "日本-04(低延迟-流媒体解锁)"
-      - "台湾-01(低延迟-繁体内容)"
-      - "台湾-02(低延迟-游戏加速)"
-      - "台湾-03(低延迟-繁体内容)"
-      - "日本-05(低延迟-ChatGPT)"
+      - "日本-01"
+      - "英国-01"
+      - "英国-02"
+      - "美国-01"
+      - "美国-02"
+      - "美国-03"
+      - "美国-04"
+      - "美国-05"
+      - "英国-03"
+      - "日本-02"
+      - "日本-03"
+      - "日本-04"
+      - "台湾-01"
+      - "台湾-02"
+      - "台湾-03"
+      - "日本-05"
+      - "香港-01"
       - "香港-02"
       - "香港-03"
       - "新加坡-01"
@@ -312,22 +326,23 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - "日本-01(低延迟-流媒体解锁)"
-      - "英国-01(欧洲节点-流媒体解锁)"
-      - "英国-02(欧洲节点-流媒体解锁)"
-      - "美国-01(大带宽-ChatGPT)"
-      - "美国-02(大带宽-流媒体解锁)"
-      - "美国-03(大带宽-流媒体解锁)"
-      - "美国-04(大带宽-ChatGPT)"
-      - "美国-05(大带宽-流媒体解锁)"
-      - "英国-03(欧洲节点-隐私保护)"
-      - "日本-02(低延迟-游戏加速)"
-      - "日本-03(低延迟-游戏加速)"
-      - "日本-04(低延迟-流媒体解锁)"
-      - "台湾-01(低延迟-繁体内容)"
-      - "台湾-02(低延迟-游戏加速)"
-      - "台湾-03(低延迟-繁体内容)"
-      - "日本-05(低延迟-ChatGPT)"
+      - "日本-01"
+      - "英国-01"
+      - "英国-02"
+      - "美国-01"
+      - "美国-02"
+      - "美国-03"
+      - "美国-04"
+      - "美国-05"
+      - "英国-03"
+      - "日本-02"
+      - "日本-03"
+      - "日本-04"
+      - "台湾-01"
+      - "台湾-02"
+      - "台湾-03"
+      - "日本-05"
+      - "香港-01"
       - "香港-02"
       - "香港-03"
       - "新加坡-01"
@@ -348,22 +363,23 @@ proxy-groups:
       - "🚀 节点选择"
       - "🎯 全球直连"
       - "♻️ 自动选择"
-      - "日本-01(低延迟-流媒体解锁)"
-      - "英国-01(欧洲节点-流媒体解锁)"
-      - "英国-02(欧洲节点-流媒体解锁)"
-      - "美国-01(大带宽-ChatGPT)"
-      - "美国-02(大带宽-流媒体解锁)"
-      - "美国-03(大带宽-流媒体解锁)"
-      - "美国-04(大带宽-ChatGPT)"
-      - "美国-05(大带宽-流媒体解锁)"
-      - "英国-03(欧洲节点-隐私保护)"
-      - "日本-02(低延迟-游戏加速)"
-      - "日本-03(低延迟-游戏加速)"
-      - "日本-04(低延迟-流媒体解锁)"
-      - "台湾-01(低延迟-繁体内容)"
-      - "台湾-02(低延迟-游戏加速)"
-      - "台湾-03(低延迟-繁体内容)"
-      - "日本-05(低延迟-ChatGPT)"
+      - "日本-01"
+      - "英国-01"
+      - "英国-02"
+      - "美国-01"
+      - "美国-02"
+      - "美国-03"
+      - "美国-04"
+      - "美国-05"
+      - "英国-03"
+      - "日本-02"
+      - "日本-03"
+      - "日本-04"
+      - "台湾-01"
+      - "台湾-02"
+      - "台湾-03"
+      - "日本-05"
+      - "香港-01"
       - "香港-02"
       - "香港-03"
       - "新加坡-01"
