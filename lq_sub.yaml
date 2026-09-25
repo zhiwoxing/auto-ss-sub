@@ -33,188 +33,463 @@ dns:
 
 proxies:
 
-  - name: "电报频道:t.me/GieGie777"
-    type: ss
-    server: "18.183.241.71"
+  - name: "HK-vip-167"
+    type: hysteria2
+    server: "pq.hy.hk.yydjc.top"
     port: 443
-    cipher: "aes-256-cfb"
-    password: "amazonskr05"
+    password: "b07db61f-a207-4508-97f5-68182991c2d6"
+    skip-cert-verify: false
     udp: true
-  - name: "加拿大1"
-    type: ss
-    server: "47.77.188.84"
-    port: 80
-    cipher: "aes-256-cfb"
-    password: "aliyun0120"
-    udp: true
-  - name: "新加坡2"
-    type: ss
-    server: "3.95.209.183"
+    sni: "www.apple.com"
+    alpn: ["h3"]
+  - name: "JP-vip-1039"
+    type: vless
+    server: "pq.aws48.yydjc.top"
     port: 443
-    cipher: "aes-256-cfb"
-    password: "amazonskr05"
+    uuid: "b07db61f-a207-4508-97f5-68182991c2d6"
     udp: true
-  - name: "台湾3"
-    type: ss
-    server: "51.20.143.248"
+    tls: true
+    skip-cert-verify: false
+    servername: "iosapps.itunes.apple.com"
+    reality-opts:
+      public-key: "ybBxu1pW3O9Me954LCDfXgHW6lIYepAbnla82yaZ5HE"
+      short-id: "6a1faecb"
+    client-fingerprint: "safari"
+    flow: "xtls-rprx-vision"
+  - name: "JP-vip-1140"
+    type: vless
+    server: "pq.aws49.yydjc.top"
     port: 443
-    cipher: "aes-256-cfb"
-    password: "amazonskr05"
+    uuid: "b07db61f-a207-4508-97f5-68182991c2d6"
     udp: true
-  - name: "美国4"
-    type: ss
-    server: "47.77.191.92"
-    port: 80
-    cipher: "aes-256-cfb"
-    password: "aliyun0120"
-    udp: true
-  - name: "日本5"
-    type: ss
-    server: "3.85.21.125"
+    tls: true
+    skip-cert-verify: false
+    servername: "cdn-dynmedia-1.microsoft.com"
+    reality-opts:
+      public-key: "zMagqZuHMMpbYO2aciR2tBAjzBVLeXe0N205r4YCY14"
+      short-id: "1a92a625"
+    client-fingerprint: "safari"
+    flow: "xtls-rprx-vision"
+  - name: "JP-vip-1241"
+    type: vless
+    server: "pq.aws50.yydjc.top"
     port: 443
-    cipher: "aes-256-cfb"
-    password: "amazonskr05"
+    uuid: "b07db61f-a207-4508-97f5-68182991c2d6"
     udp: true
-  - name: "日本6"
-    type: ss
-    server: "13.48.104.124"
+    tls: true
+    skip-cert-verify: false
+    servername: "iosapps.itunes.apple.com"
+    reality-opts:
+      public-key: "pR8CV43xvSgvzSXPVLCVomjw-yZvNyqU32kietO2pEc"
+      short-id: "a6115a2c"
+    client-fingerprint: "safari"
+    flow: "xtls-rprx-vision"
+  - name: "JP-vip-1342"
+    type: vless
+    server: "pq.aws51.yydjc.top"
     port: 443
-    cipher: "aes-256-cfb"
-    password: "amazonskr05"
+    uuid: "b07db61f-a207-4508-97f5-68182991c2d6"
     udp: true
-  - name: "香港7"
-    type: ss
-    server: "13.49.64.122"
+    tls: true
+    skip-cert-verify: false
+    servername: "cdn-dynmedia-1.microsoft.com"
+    reality-opts:
+      public-key: "FrLhPuCVfzdM5rppzxHXQ5BZSGf1YHrXgo-cCtecGSo"
+      short-id: "f3b38af2"
+    client-fingerprint: "safari"
+    flow: "xtls-rprx-vision"
+  - name: "JP-vip-1443"
+    type: vless
+    server: "pq.aws52.yydjc.top"
     port: 443
-    cipher: "aes-256-cfb"
-    password: "amazonskr05"
+    uuid: "b07db61f-a207-4508-97f5-68182991c2d6"
     udp: true
-  - name: "美国8"
-    type: ss
-    server: "13.115.71.198"
+    tls: true
+    skip-cert-verify: false
+    servername: "cdn-dynmedia-1.microsoft.com"
+    reality-opts:
+      public-key: "FrLhPuCVfzdM5rppzxHXQ5BZSGf1YHrXgo-cCtecGSo"
+      short-id: "f3b38af2"
+    client-fingerprint: "safari"
+    flow: "xtls-rprx-vision"
+  - name: "JP-vip-1544"
+    type: vless
+    server: "pq.aws53.yydjc.top"
     port: 443
-    cipher: "aes-256-cfb"
-    password: "amazonskr05"
+    uuid: "b07db61f-a207-4508-97f5-68182991c2d6"
     udp: true
-  - name: "韩国9"
-    type: ss
-    server: "34.207.118.85"
+    tls: true
+    skip-cert-verify: false
+    servername: "iosapps.itunes.apple.com"
+    reality-opts:
+      public-key: "pR8CV43xvSgvzSXPVLCVomjw-yZvNyqU32kietO2pEc"
+      short-id: "a6115a2c"
+    client-fingerprint: "safari"
+    flow: "xtls-rprx-vision"
+  - name: "JP-vip-1645"
+    type: vless
+    server: "pq.aws54.yydjc.top"
     port: 443
-    cipher: "aes-256-cfb"
-    password: "amazonskr05"
+    uuid: "b07db61f-a207-4508-97f5-68182991c2d6"
     udp: true
-  - name: "美国10"
-    type: ss
-    server: "46.29.163.78"
-    port: 20090
-    cipher: "aes-256-gcm"
-    password: "6b39ae3234dfd68b"
+    tls: true
+    skip-cert-verify: false
+    servername: "updates.cdn-apple.com"
+    reality-opts:
+      public-key: "ePEdL0MQGHT0BGkhSprooNXTYHgp_mdaxEaOkGTKO3k"
+      short-id: "195c371d"
+    client-fingerprint: "safari"
+    flow: "xtls-rprx-vision"
+  - name: "JP-vip-1746"
+    type: vless
+    server: "pq.aws55.yydjc.top"
+    port: 443
+    uuid: "b07db61f-a207-4508-97f5-68182991c2d6"
     udp: true
-  - name: "新加坡11"
-    type: ss
-    server: "103.136.68.36"
-    port: 8388
-    cipher: "aes-256-gcm"
-    password: "OUdEsH1GGrha0QOK"
+    tls: true
+    skip-cert-verify: false
+    servername: "updates.cdn-apple.com"
+    reality-opts:
+      public-key: "Zzn7SxtTRMANwRwOvn87ZpNQ8zjjzcKOznE_sG_7UQU"
+      short-id: "6b584a0d"
+    client-fingerprint: "safari"
+    flow: "xtls-rprx-vision"
+  - name: "JP-vip-1847"
+    type: vless
+    server: "pq.aws56.yydjc.top"
+    port: 443
+    uuid: "b07db61f-a207-4508-97f5-68182991c2d6"
     udp: true
-  - name: "日本12"
-    type: ss
-    server: "103.115.18.43"
-    port: 8388
-    cipher: "aes-256-gcm"
-    password: "DpCoJB6R8tYNe1LI"
+    tls: true
+    skip-cert-verify: false
+    servername: "updates.cdn-apple.com"
+    reality-opts:
+      public-key: "scnmyqQqGfHXAG9Ihe-bzs1xvqwQlMhCc87zJdIzPTs"
+      short-id: "2edcfbb7"
+    client-fingerprint: "safari"
+    flow: "xtls-rprx-vision"
+  - name: "JP-vip-1948"
+    type: vless
+    server: "pq.aws57.yydjc.top"
+    port: 443
+    uuid: "b07db61f-a207-4508-97f5-68182991c2d6"
     udp: true
-  - name: "香港13"
-    type: ss
-    server: "212.192.13.81"
-    port: 8388
-    cipher: "aes-256-gcm"
-    password: "zHrJcutXYr6BTYZa"
+    tls: true
+    skip-cert-verify: false
+    servername: "updates.cdn-apple.com"
+    reality-opts:
+      public-key: "KeIvEyXB-ftboKdIoaSDyUKJPQpmcZiVaqY2JndkX08"
+      short-id: "55fbcc37"
+    client-fingerprint: "safari"
+    flow: "xtls-rprx-vision"
+  - name: "SG-vip-854"
+    type: vless
+    server: "pq.aws63.yydjc.top"
+    port: 443
+    uuid: "b07db61f-a207-4508-97f5-68182991c2d6"
     udp: true
-  - name: "台湾14"
-    type: ss
-    server: "45.129.2.107"
-    port: 40126
-    cipher: "aes-256-gcm"
-    password: "a2c044fe22258a18"
+    tls: true
+    skip-cert-verify: false
+    servername: "iosapps.itunes.apple.com"
+    reality-opts:
+      public-key: "mnshlVo5tkzYbmEB9xrgmUHwYETnXLAjjlGAssqaDGI"
+      short-id: "436299c6"
+    client-fingerprint: "chrome"
+    flow: "xtls-rprx-vision"
+  - name: "SG-vip-955"
+    type: vless
+    server: "pq.aws64.yydjc.top"
+    port: 443
+    uuid: "b07db61f-a207-4508-97f5-68182991c2d6"
     udp: true
-  - name: "法国15"
-    type: ss
-    server: "89.125.244.241"
-    port: 10090
-    cipher: "aes-256-gcm"
-    password: "9cfaa78d51ac366f"
+    tls: true
+    skip-cert-verify: false
+    servername: "iosapps.itunes.apple.com"
+    reality-opts:
+      public-key: "xjWkdgeetCnB1-kHqwVnAaSUqg4qK9TFWQlamW8FSRI"
+      short-id: "e2e15173"
+    client-fingerprint: "safari"
+    flow: "xtls-rprx-vision"
+  - name: "SG-vip-1056"
+    type: vless
+    server: "pq.aws65.yydjc.top"
+    port: 443
+    uuid: "b07db61f-a207-4508-97f5-68182991c2d6"
     udp: true
-  - name: "泰国16"
-    type: ss
-    server: "132.243.255.3"
-    port: 10090
-    cipher: "aes-256-gcm"
-    password: "78235e7dc55e9ad1"
+    tls: true
+    skip-cert-verify: false
+    servername: "iosapps.itunes.apple.com"
+    reality-opts:
+      public-key: "9076EbD5vM8kATc_08QvDiqZF5KHTM_LaSrMOvcwfHw"
+      short-id: "57b7989c"
+    client-fingerprint: "safari"
+    flow: "xtls-rprx-vision"
+  - name: "SG-vip-1157"
+    type: vless
+    server: "pq.aws66.yydjc.top"
+    port: 443
+    uuid: "b07db61f-a207-4508-97f5-68182991c2d6"
     udp: true
-  - name: "澳大利亚17"
-    type: ss
-    server: "194.87.196.13"
-    port: 10090
-    cipher: "aes-256-gcm"
-    password: "4938e975724d0ed1"
+    tls: true
+    skip-cert-verify: false
+    servername: "iosapps.itunes.apple.com"
+    reality-opts:
+      public-key: "OmGeSOsHQMl3Rm6G3SzYjmZvgFYBF489vxfbBCNDWjw"
+      short-id: "289c74e0"
+    client-fingerprint: "safari"
+    flow: "xtls-rprx-vision"
+  - name: "SG-vip-1258"
+    type: vless
+    server: "pq.aws67.yydjc.top"
+    port: 443
+    uuid: "b07db61f-a207-4508-97f5-68182991c2d6"
     udp: true
-  - name: "加拿大18"
-    type: ss
-    server: "195.133.23.200"
-    port: 10081
-    cipher: "aes-256-gcm"
-    password: "81a20429165df87e"
+    tls: true
+    skip-cert-verify: false
+    servername: "updates.cdn-apple.com"
+    reality-opts:
+      public-key: "iusZvFfHH5OJ6sAPFF6e7Km9WP0nmWfjXXfhTQuSR24"
+      short-id: "8b6e932c"
+    client-fingerprint: "safari"
+    flow: "xtls-rprx-vision"
+  - name: "SG-vip-1368"
+    type: hysteria2
+    server: "67.159.48.147"
+    port: 60000
+    password: "b07db61f-a207-4508-97f5-68182991c2d6"
+    skip-cert-verify: false
     udp: true
-  - name: "意大利19"
-    type: ss
-    server: "195.58.48.137"
-    port: 10081
-    cipher: "aes-256-gcm"
-    password: "8ad9d72a5571df86"
+    sni: "www.apple.com"
+    alpn: ["h3"]
+  - name: "SG-vip-1570"
+    type: hysteria2
+    server: "203.27.106.148"
+    port: 60000
+    password: "b07db61f-a207-4508-97f5-68182991c2d6"
+    skip-cert-verify: false
     udp: true
-  - name: "英国20"
-    type: ss
-    server: "176.32.35.2"
-    port: 10090
-    cipher: "aes-256-gcm"
-    password: "895b4b796a357570"
+    sni: "www.apple.com"
+    alpn: ["h3"]
+  - name: "SG-vip-1772"
+    type: hysteria2
+    server: "152.69.220.212"
+    port: 35000
+    password: "b07db61f-a207-4508-97f5-68182991c2d6"
+    skip-cert-verify: false
     udp: true
-  - name: "西班牙21"
-    type: ss
-    server: "176.32.35.2"
-    port: 10090
-    cipher: "aes-256-gcm"
-    password: "895b4b796a357570"
+    sni: "api.push.apple.com"
+    alpn: ["h3"]
+  - name: "TW-vip-173"
+    type: hysteria2
+    server: "pq-hinet.tw1.yydjc.top"
+    port: 60000
+    password: "b07db61f-a207-4508-97f5-68182991c2d6"
+    skip-cert-verify: false
     udp: true
-  - name: "香港22"
-    type: ss
-    server: "103.136.150.119"
-    port: 10090
-    cipher: "aes-256-gcm"
-    password: "72553320ae6bcc8f"
+    sni: "www.apple.com"
+    alpn: ["h3"]
+  - name: "TW-vip-274"
+    type: hysteria2
+    server: "pq-hinet.tw2.yydjc.top"
+    port: 60000
+    password: "b07db61f-a207-4508-97f5-68182991c2d6"
+    skip-cert-verify: false
     udp: true
-  - name: "俄罗斯23"
-    type: ss
-    server: "185.22.154.239"
-    port: 10301
-    cipher: "aes-256-gcm"
-    password: "bdb313adf74c2ede"
+    sni: "www.apple.com"
+    alpn: ["h3"]
+  - name: "TW-vip-375"
+    type: hysteria2
+    server: "pq-hinet.tw3.yydjc.top"
+    port: 60000
+    password: "b07db61f-a207-4508-97f5-68182991c2d6"
+    skip-cert-verify: false
     udp: true
-  - name: "加拿大24"
-    type: ss
-    server: "132.243.255.3"
-    port: 10090
-    cipher: "aes-256-gcm"
-    password: "78235e7dc55e9ad1"
+    sni: "www.apple.com"
+    alpn: ["h3"]
+  - name: "US-vip-159"
+    type: hysteria2
+    server: "pq.us1.globals-download.com"
+    port: 35000
+    password: "b07db61f-a207-4508-97f5-68182991c2d6"
+    skip-cert-verify: false
     udp: true
-  - name: "法国25"
-    type: ss
-    server: "185.22.154.239"
-    port: 10301
-    cipher: "aes-256-gcm"
-    password: "bdb313adf74c2ede"
+    sni: "www.apple.com"
+    alpn: ["h3"]
+  - name: "US-vip-260"
+    type: hysteria2
+    server: "pq.us2.globals-download.com"
+    port: 35000
+    password: "b07db61f-a207-4508-97f5-68182991c2d6"
+    skip-cert-verify: false
     udp: true
+    sni: "www.apple.com"
+    alpn: ["h3"]
+  - name: "US-vip-361"
+    type: hysteria2
+    server: "pq.us3.globals-download.com"
+    port: 35000
+    password: "b07db61f-a207-4508-97f5-68182991c2d6"
+    skip-cert-verify: false
+    udp: true
+    sni: "tv.apple.com"
+    alpn: ["h3"]
+  - name: "US-vip-462"
+    type: hysteria2
+    server: "pq.us4.globals-download.com"
+    port: 35000
+    password: "b07db61f-a207-4508-97f5-68182991c2d6"
+    skip-cert-verify: false
+    udp: true
+    sni: "www.apple.com"
+    alpn: ["h3"]
+  - name: "US-vip-563"
+    type: hysteria2
+    server: "pq.us5.globals-download.com"
+    port: 35000
+    password: "b07db61f-a207-4508-97f5-68182991c2d6"
+    skip-cert-verify: false
+    udp: true
+    sni: "www.apple.com"
+    alpn: ["h3"]
+  - name: "US-vip-664"
+    type: hysteria2
+    server: "pq.us6.globals-download.com"
+    port: 35000
+    password: "b07db61f-a207-4508-97f5-68182991c2d6"
+    skip-cert-verify: false
+    udp: true
+    sni: "www.apple.com"
+    alpn: ["h3"]
+  - name: "US-vip-765"
+    type: hysteria2
+    server: "pq.us7.globals-download.com"
+    port: 35000
+    password: "b07db61f-a207-4508-97f5-68182991c2d6"
+    skip-cert-verify: false
+    udp: true
+    sni: "www.apple.com"
+    alpn: ["h3"]
+  - name: "US-vip-866"
+    type: hysteria2
+    server: "pq.us8.globals-download.com"
+    port: 35000
+    password: "b07db61f-a207-4508-97f5-68182991c2d6"
+    skip-cert-verify: false
+    udp: true
+    sni: "www.apple.com"
+    alpn: ["h3"]
+  - name: "US-vip-2289"
+    type: vless
+    server: "pq.us01.yydjc.top"
+    port: 443
+    uuid: "b07db61f-a207-4508-97f5-68182991c2d6"
+    udp: true
+    tls: true
+    skip-cert-verify: false
+    servername: "updates.cdn-apple.com"
+    reality-opts:
+      public-key: "XpaYw0-hwSPxgV8K-WUbEaxbAwxjYVpDkDGOMONwUiA"
+      short-id: "79f44f5c"
+    client-fingerprint: "safari"
+    flow: "xtls-rprx-vision"
+  - name: "US-vip-2390"
+    type: vless
+    server: "pq.us02.yydjc.top"
+    port: 443
+    uuid: "b07db61f-a207-4508-97f5-68182991c2d6"
+    udp: true
+    tls: true
+    skip-cert-verify: false
+    servername: "updates.cdn-apple.com"
+    reality-opts:
+      public-key: "AzQlCUikY30iQK5pgK2nW_AiYJkvi2Lm5rDjWGHvzUo"
+      short-id: "182dc224"
+    client-fingerprint: "safari"
+    flow: "xtls-rprx-vision"
+  - name: "US-vip-2491"
+    type: vless
+    server: "pq.us03.yydjc.top"
+    port: 443
+    uuid: "b07db61f-a207-4508-97f5-68182991c2d6"
+    udp: true
+    tls: true
+    skip-cert-verify: false
+    servername: "iosapps.itunes.apple.com"
+    reality-opts:
+      public-key: "-Cc9Wduo_L3TI70LPHFamFOaQer2Lzzux-vwAVDn5ns"
+      short-id: "f0dc50e8"
+    client-fingerprint: "safari"
+    flow: "xtls-rprx-vision"
+  - name: "US-vip-2592"
+    type: vless
+    server: "pq.us04.yydjc.top"
+    port: 443
+    uuid: "b07db61f-a207-4508-97f5-68182991c2d6"
+    udp: true
+    tls: true
+    skip-cert-verify: false
+    servername: "iosapps.itunes.apple.com"
+    reality-opts:
+      public-key: "20zgmuoZYL5ngyWwzwJSaNpfaRAOhX2UdND6RVVswm0"
+      short-id: "71c05500"
+    client-fingerprint: "safari"
+    flow: "xtls-rprx-vision"
+  - name: "US-vip-2693"
+    type: vless
+    server: "pq.us05.yydjc.top"
+    port: 443
+    uuid: "b07db61f-a207-4508-97f5-68182991c2d6"
+    udp: true
+    tls: true
+    skip-cert-verify: false
+    servername: "www.mi.com"
+    reality-opts:
+      public-key: "ptYLYuVba16lu-OtadiE8Wd-cGHHVZh0XkxVUqrhmDE"
+      short-id: "2546d239"
+    client-fingerprint: "safari"
+    flow: "xtls-rprx-vision"
+  - name: "US-vip-2794"
+    type: vless
+    server: "pq.us06.yydjc.top"
+    port: 443
+    uuid: "b07db61f-a207-4508-97f5-68182991c2d6"
+    udp: true
+    tls: true
+    skip-cert-verify: false
+    servername: "iosapps.itunes.apple.com"
+    reality-opts:
+      public-key: "GRpUsIrhrxRKshbSbWFs1YmTyWzhTQXjAyjpRIFo1zs"
+      short-id: "beadc711"
+    client-fingerprint: "safari"
+    flow: "xtls-rprx-vision"
+  - name: "US-vip-2895"
+    type: vless
+    server: "pq.us07.yydjc.top"
+    port: 443
+    uuid: "b07db61f-a207-4508-97f5-68182991c2d6"
+    udp: true
+    tls: true
+    skip-cert-verify: false
+    servername: "www.mi.com"
+    reality-opts:
+      public-key: "CQqGVFQ65FCLJsqx2xb0RkfjZ6veJNaCsqazSYVvfgQ"
+      short-id: "d574526d"
+    client-fingerprint: "safari"
+    flow: "xtls-rprx-vision"
+  - name: "US-vip-2996"
+    type: vless
+    server: "203.10.96.138"
+    port: 443
+    uuid: "b07db61f-a207-4508-97f5-68182991c2d6"
+    udp: true
+    tls: true
+    skip-cert-verify: false
+    servername: "cdn-dynmedia-1.microsoft.com"
+    reality-opts:
+      public-key: "VFG2L-3i30fQZg3wd0DF6dEGdaT27S-PKpuYu7Hp8xU"
+      short-id: "fd26d49a"
+    client-fingerprint: "safari"
+    flow: "xtls-rprx-vision"
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -222,221 +497,305 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - "DIRECT"
-      - "电报频道:t.me/GieGie777"
-      - "加拿大1"
-      - "新加坡2"
-      - "台湾3"
-      - "美国4"
-      - "日本5"
-      - "日本6"
-      - "香港7"
-      - "美国8"
-      - "韩国9"
-      - "美国10"
-      - "新加坡11"
-      - "日本12"
-      - "香港13"
-      - "台湾14"
-      - "法国15"
-      - "泰国16"
-      - "澳大利亚17"
-      - "加拿大18"
-      - "意大利19"
-      - "英国20"
-      - "西班牙21"
-      - "香港22"
-      - "俄罗斯23"
-      - "加拿大24"
-      - "法国25"
+      - "HK-vip-167"
+      - "JP-vip-1039"
+      - "JP-vip-1140"
+      - "JP-vip-1241"
+      - "JP-vip-1342"
+      - "JP-vip-1443"
+      - "JP-vip-1544"
+      - "JP-vip-1645"
+      - "JP-vip-1746"
+      - "JP-vip-1847"
+      - "JP-vip-1948"
+      - "SG-vip-854"
+      - "SG-vip-955"
+      - "SG-vip-1056"
+      - "SG-vip-1157"
+      - "SG-vip-1258"
+      - "SG-vip-1368"
+      - "SG-vip-1570"
+      - "SG-vip-1772"
+      - "TW-vip-173"
+      - "TW-vip-274"
+      - "TW-vip-375"
+      - "US-vip-159"
+      - "US-vip-260"
+      - "US-vip-361"
+      - "US-vip-462"
+      - "US-vip-563"
+      - "US-vip-664"
+      - "US-vip-765"
+      - "US-vip-866"
+      - "US-vip-2289"
+      - "US-vip-2390"
+      - "US-vip-2491"
+      - "US-vip-2592"
+      - "US-vip-2693"
+      - "US-vip-2794"
+      - "US-vip-2895"
+      - "US-vip-2996"
   - name: "♻️ 自动选择"
     type: url-test
     url: "http://www.gstatic.com/generate_204"
     interval: 300
     tolerance: 50
     proxies:
-      - "电报频道:t.me/GieGie777"
-      - "加拿大1"
-      - "新加坡2"
-      - "台湾3"
-      - "美国4"
-      - "日本5"
-      - "日本6"
-      - "香港7"
-      - "美国8"
-      - "韩国9"
-      - "美国10"
-      - "新加坡11"
-      - "日本12"
-      - "香港13"
-      - "台湾14"
-      - "法国15"
-      - "泰国16"
-      - "澳大利亚17"
-      - "加拿大18"
-      - "意大利19"
-      - "英国20"
-      - "西班牙21"
-      - "香港22"
-      - "俄罗斯23"
-      - "加拿大24"
-      - "法国25"
+      - "HK-vip-167"
+      - "JP-vip-1039"
+      - "JP-vip-1140"
+      - "JP-vip-1241"
+      - "JP-vip-1342"
+      - "JP-vip-1443"
+      - "JP-vip-1544"
+      - "JP-vip-1645"
+      - "JP-vip-1746"
+      - "JP-vip-1847"
+      - "JP-vip-1948"
+      - "SG-vip-854"
+      - "SG-vip-955"
+      - "SG-vip-1056"
+      - "SG-vip-1157"
+      - "SG-vip-1258"
+      - "SG-vip-1368"
+      - "SG-vip-1570"
+      - "SG-vip-1772"
+      - "TW-vip-173"
+      - "TW-vip-274"
+      - "TW-vip-375"
+      - "US-vip-159"
+      - "US-vip-260"
+      - "US-vip-361"
+      - "US-vip-462"
+      - "US-vip-563"
+      - "US-vip-664"
+      - "US-vip-765"
+      - "US-vip-866"
+      - "US-vip-2289"
+      - "US-vip-2390"
+      - "US-vip-2491"
+      - "US-vip-2592"
+      - "US-vip-2693"
+      - "US-vip-2794"
+      - "US-vip-2895"
+      - "US-vip-2996"
   - name: "🌍 国外媒体"
     type: select
     proxies:
       - "🚀 节点选择"
       - "♻️ 自动选择"
       - "🎯 全球直连"
-      - "电报频道:t.me/GieGie777"
-      - "加拿大1"
-      - "新加坡2"
-      - "台湾3"
-      - "美国4"
-      - "日本5"
-      - "日本6"
-      - "香港7"
-      - "美国8"
-      - "韩国9"
-      - "美国10"
-      - "新加坡11"
-      - "日本12"
-      - "香港13"
-      - "台湾14"
-      - "法国15"
-      - "泰国16"
-      - "澳大利亚17"
-      - "加拿大18"
-      - "意大利19"
-      - "英国20"
-      - "西班牙21"
-      - "香港22"
-      - "俄罗斯23"
-      - "加拿大24"
-      - "法国25"
+      - "HK-vip-167"
+      - "JP-vip-1039"
+      - "JP-vip-1140"
+      - "JP-vip-1241"
+      - "JP-vip-1342"
+      - "JP-vip-1443"
+      - "JP-vip-1544"
+      - "JP-vip-1645"
+      - "JP-vip-1746"
+      - "JP-vip-1847"
+      - "JP-vip-1948"
+      - "SG-vip-854"
+      - "SG-vip-955"
+      - "SG-vip-1056"
+      - "SG-vip-1157"
+      - "SG-vip-1258"
+      - "SG-vip-1368"
+      - "SG-vip-1570"
+      - "SG-vip-1772"
+      - "TW-vip-173"
+      - "TW-vip-274"
+      - "TW-vip-375"
+      - "US-vip-159"
+      - "US-vip-260"
+      - "US-vip-361"
+      - "US-vip-462"
+      - "US-vip-563"
+      - "US-vip-664"
+      - "US-vip-765"
+      - "US-vip-866"
+      - "US-vip-2289"
+      - "US-vip-2390"
+      - "US-vip-2491"
+      - "US-vip-2592"
+      - "US-vip-2693"
+      - "US-vip-2794"
+      - "US-vip-2895"
+      - "US-vip-2996"
   - name: "📲 电报信息"
     type: select
     proxies:
       - "🚀 节点选择"
       - "🎯 全球直连"
-      - "电报频道:t.me/GieGie777"
-      - "加拿大1"
-      - "新加坡2"
-      - "台湾3"
-      - "美国4"
-      - "日本5"
-      - "日本6"
-      - "香港7"
-      - "美国8"
-      - "韩国9"
-      - "美国10"
-      - "新加坡11"
-      - "日本12"
-      - "香港13"
-      - "台湾14"
-      - "法国15"
-      - "泰国16"
-      - "澳大利亚17"
-      - "加拿大18"
-      - "意大利19"
-      - "英国20"
-      - "西班牙21"
-      - "香港22"
-      - "俄罗斯23"
-      - "加拿大24"
-      - "法国25"
+      - "HK-vip-167"
+      - "JP-vip-1039"
+      - "JP-vip-1140"
+      - "JP-vip-1241"
+      - "JP-vip-1342"
+      - "JP-vip-1443"
+      - "JP-vip-1544"
+      - "JP-vip-1645"
+      - "JP-vip-1746"
+      - "JP-vip-1847"
+      - "JP-vip-1948"
+      - "SG-vip-854"
+      - "SG-vip-955"
+      - "SG-vip-1056"
+      - "SG-vip-1157"
+      - "SG-vip-1258"
+      - "SG-vip-1368"
+      - "SG-vip-1570"
+      - "SG-vip-1772"
+      - "TW-vip-173"
+      - "TW-vip-274"
+      - "TW-vip-375"
+      - "US-vip-159"
+      - "US-vip-260"
+      - "US-vip-361"
+      - "US-vip-462"
+      - "US-vip-563"
+      - "US-vip-664"
+      - "US-vip-765"
+      - "US-vip-866"
+      - "US-vip-2289"
+      - "US-vip-2390"
+      - "US-vip-2491"
+      - "US-vip-2592"
+      - "US-vip-2693"
+      - "US-vip-2794"
+      - "US-vip-2895"
+      - "US-vip-2996"
   - name: "Ⓜ️ 微软服务"
     type: select
     proxies:
       - "🎯 全球直连"
       - "🚀 节点选择"
-      - "电报频道:t.me/GieGie777"
-      - "加拿大1"
-      - "新加坡2"
-      - "台湾3"
-      - "美国4"
-      - "日本5"
-      - "日本6"
-      - "香港7"
-      - "美国8"
-      - "韩国9"
-      - "美国10"
-      - "新加坡11"
-      - "日本12"
-      - "香港13"
-      - "台湾14"
-      - "法国15"
-      - "泰国16"
-      - "澳大利亚17"
-      - "加拿大18"
-      - "意大利19"
-      - "英国20"
-      - "西班牙21"
-      - "香港22"
-      - "俄罗斯23"
-      - "加拿大24"
-      - "法国25"
+      - "HK-vip-167"
+      - "JP-vip-1039"
+      - "JP-vip-1140"
+      - "JP-vip-1241"
+      - "JP-vip-1342"
+      - "JP-vip-1443"
+      - "JP-vip-1544"
+      - "JP-vip-1645"
+      - "JP-vip-1746"
+      - "JP-vip-1847"
+      - "JP-vip-1948"
+      - "SG-vip-854"
+      - "SG-vip-955"
+      - "SG-vip-1056"
+      - "SG-vip-1157"
+      - "SG-vip-1258"
+      - "SG-vip-1368"
+      - "SG-vip-1570"
+      - "SG-vip-1772"
+      - "TW-vip-173"
+      - "TW-vip-274"
+      - "TW-vip-375"
+      - "US-vip-159"
+      - "US-vip-260"
+      - "US-vip-361"
+      - "US-vip-462"
+      - "US-vip-563"
+      - "US-vip-664"
+      - "US-vip-765"
+      - "US-vip-866"
+      - "US-vip-2289"
+      - "US-vip-2390"
+      - "US-vip-2491"
+      - "US-vip-2592"
+      - "US-vip-2693"
+      - "US-vip-2794"
+      - "US-vip-2895"
+      - "US-vip-2996"
   - name: "🍎 苹果服务"
     type: select
     proxies:
       - "🚀 节点选择"
       - "🎯 全球直连"
-      - "电报频道:t.me/GieGie777"
-      - "加拿大1"
-      - "新加坡2"
-      - "台湾3"
-      - "美国4"
-      - "日本5"
-      - "日本6"
-      - "香港7"
-      - "美国8"
-      - "韩国9"
-      - "美国10"
-      - "新加坡11"
-      - "日本12"
-      - "香港13"
-      - "台湾14"
-      - "法国15"
-      - "泰国16"
-      - "澳大利亚17"
-      - "加拿大18"
-      - "意大利19"
-      - "英国20"
-      - "西班牙21"
-      - "香港22"
-      - "俄罗斯23"
-      - "加拿大24"
-      - "法国25"
+      - "HK-vip-167"
+      - "JP-vip-1039"
+      - "JP-vip-1140"
+      - "JP-vip-1241"
+      - "JP-vip-1342"
+      - "JP-vip-1443"
+      - "JP-vip-1544"
+      - "JP-vip-1645"
+      - "JP-vip-1746"
+      - "JP-vip-1847"
+      - "JP-vip-1948"
+      - "SG-vip-854"
+      - "SG-vip-955"
+      - "SG-vip-1056"
+      - "SG-vip-1157"
+      - "SG-vip-1258"
+      - "SG-vip-1368"
+      - "SG-vip-1570"
+      - "SG-vip-1772"
+      - "TW-vip-173"
+      - "TW-vip-274"
+      - "TW-vip-375"
+      - "US-vip-159"
+      - "US-vip-260"
+      - "US-vip-361"
+      - "US-vip-462"
+      - "US-vip-563"
+      - "US-vip-664"
+      - "US-vip-765"
+      - "US-vip-866"
+      - "US-vip-2289"
+      - "US-vip-2390"
+      - "US-vip-2491"
+      - "US-vip-2592"
+      - "US-vip-2693"
+      - "US-vip-2794"
+      - "US-vip-2895"
+      - "US-vip-2996"
   - name: "📢 谷歌FCM"
     type: select
     proxies:
       - "🚀 节点选择"
       - "🎯 全球直连"
       - "♻️ 自动选择"
-      - "电报频道:t.me/GieGie777"
-      - "加拿大1"
-      - "新加坡2"
-      - "台湾3"
-      - "美国4"
-      - "日本5"
-      - "日本6"
-      - "香港7"
-      - "美国8"
-      - "韩国9"
-      - "美国10"
-      - "新加坡11"
-      - "日本12"
-      - "香港13"
-      - "台湾14"
-      - "法国15"
-      - "泰国16"
-      - "澳大利亚17"
-      - "加拿大18"
-      - "意大利19"
-      - "英国20"
-      - "西班牙21"
-      - "香港22"
-      - "俄罗斯23"
-      - "加拿大24"
-      - "法国25"
+      - "HK-vip-167"
+      - "JP-vip-1039"
+      - "JP-vip-1140"
+      - "JP-vip-1241"
+      - "JP-vip-1342"
+      - "JP-vip-1443"
+      - "JP-vip-1544"
+      - "JP-vip-1645"
+      - "JP-vip-1746"
+      - "JP-vip-1847"
+      - "JP-vip-1948"
+      - "SG-vip-854"
+      - "SG-vip-955"
+      - "SG-vip-1056"
+      - "SG-vip-1157"
+      - "SG-vip-1258"
+      - "SG-vip-1368"
+      - "SG-vip-1570"
+      - "SG-vip-1772"
+      - "TW-vip-173"
+      - "TW-vip-274"
+      - "TW-vip-375"
+      - "US-vip-159"
+      - "US-vip-260"
+      - "US-vip-361"
+      - "US-vip-462"
+      - "US-vip-563"
+      - "US-vip-664"
+      - "US-vip-765"
+      - "US-vip-866"
+      - "US-vip-2289"
+      - "US-vip-2390"
+      - "US-vip-2491"
+      - "US-vip-2592"
+      - "US-vip-2693"
+      - "US-vip-2794"
+      - "US-vip-2895"
+      - "US-vip-2996"
   - name: "🎯 全球直连"
     type: select
     proxies:
@@ -459,32 +818,44 @@ proxy-groups:
       - "🚀 节点选择"
       - "🎯 全球直连"
       - "♻️ 自动选择"
-      - "电报频道:t.me/GieGie777"
-      - "加拿大1"
-      - "新加坡2"
-      - "台湾3"
-      - "美国4"
-      - "日本5"
-      - "日本6"
-      - "香港7"
-      - "美国8"
-      - "韩国9"
-      - "美国10"
-      - "新加坡11"
-      - "日本12"
-      - "香港13"
-      - "台湾14"
-      - "法国15"
-      - "泰国16"
-      - "澳大利亚17"
-      - "加拿大18"
-      - "意大利19"
-      - "英国20"
-      - "西班牙21"
-      - "香港22"
-      - "俄罗斯23"
-      - "加拿大24"
-      - "法国25"
+      - "HK-vip-167"
+      - "JP-vip-1039"
+      - "JP-vip-1140"
+      - "JP-vip-1241"
+      - "JP-vip-1342"
+      - "JP-vip-1443"
+      - "JP-vip-1544"
+      - "JP-vip-1645"
+      - "JP-vip-1746"
+      - "JP-vip-1847"
+      - "JP-vip-1948"
+      - "SG-vip-854"
+      - "SG-vip-955"
+      - "SG-vip-1056"
+      - "SG-vip-1157"
+      - "SG-vip-1258"
+      - "SG-vip-1368"
+      - "SG-vip-1570"
+      - "SG-vip-1772"
+      - "TW-vip-173"
+      - "TW-vip-274"
+      - "TW-vip-375"
+      - "US-vip-159"
+      - "US-vip-260"
+      - "US-vip-361"
+      - "US-vip-462"
+      - "US-vip-563"
+      - "US-vip-664"
+      - "US-vip-765"
+      - "US-vip-866"
+      - "US-vip-2289"
+      - "US-vip-2390"
+      - "US-vip-2491"
+      - "US-vip-2592"
+      - "US-vip-2693"
+      - "US-vip-2794"
+      - "US-vip-2895"
+      - "US-vip-2996"
 
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
