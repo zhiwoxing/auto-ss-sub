@@ -1,17 +1,20 @@
-anytls://9sK2mP8xQ7vL3nZ6@8uhb.pnuqcnp.cn:443?security=tls&sni=images.ctfassets.net&fp=chrome&alpn=http%2F1.1&insecure=1&allowInsecure=1&type=tcp&headerType=none&pcs=7EA8C7D3FA0F65C75A7A9C4244ABF700CC203B6D2F76282E115C2363A745A32A#%E9%A6%99%E6%B8%AF(HK)
-anytls://9sK2mP8xQ7vL3nZ6@awefd2313fefarg23fr24.pnuqcnp.cn:443?security=tls&sni=images.ctfassets.net&fp=chrome&alpn=http%2F1.1&insecure=1&allowInsecure=1&type=tcp&headerType=none&pcs=9BEF062AC221DD1F95CD5456893F1C5167701322967A8F4235BBF21C7066386E#%E7%BE%8E%E5%9B%BD(US)
-anytls://9sK2mP8xQ7vL3nZ6@ac7548f3ebe045b39a90288ff1e97526.pnuqcnp.cn:443?security=tls&sni=ac7548f3ebe045b39a90288ff1e97526.lwdnxf.cn&fp=chrome&alpn=http%2F1.1&insecure=1&allowInsecure=1&type=tcp&headerType=none&pcs=F87CF776CDA5EF9C1D4047831205E09C7E3A75335E016179038CC1020C840686#%E6%96%B0%E5%8A%A0%E5%9D%A1(SG)
-anytls://9sK2mP8xQ7vL3nZ6@ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn:443?security=tls&sni=ac7548f3ebe045b39a90288ff1e97528.lwdnxf.cn&fp=chrome&alpn=http%2F1.1&insecure=1&allowInsecure=1&type=tcp&headerType=none&pcs=F87CF776CDA5EF9C1D4047831205E09C7E3A75335E016179038CC1020C840686#%E6%84%8F%E5%A4%A7%E5%88%A9(IT)
-anytls://9sK2mP8xQ7vL3nZ6@ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn:443?security=tls&sni=ac7548f3ebe045b39a90288ff1e97528.lwdnxf.cn&alpn=http%2F1.1&insecure=1&fp=chrome#%E9%A6%99%E6%B8%AF
-anytls://9sK2mP8xQ7vL3nZ6@awefd2313fefarg23fr24.pnuqcnp.cn:443?security=tls&sni=images.ctfassets.net&alpn=http%2F1.1&insecure=1&fp=chrome#%E7%BE%8E%E5%9B%BD
-anytls://9sK2mP8xQ7vL3nZ6@6ivh.pnuqcnp.cn:443?security=tls&sni=images.ctfassets.net&alpn=http%2F1.1&insecure=1&fp=chrome#%E6%96%B0%E5%8A%A0%E5%9D%A1
+vless=106.75.143.18:5000, method=none, password=33b54cc6-ce2d-449c-b656-1b23d40e482a, obfs=over-tls, obfs-host=buylite.tv.apple.com, reality-base64-pubkey=_9RItE-b_UsAMkpTgMAJhaiXBl5AUP7jF-OfCDLXKQg, reality-hex-shortid=0c053931, tag=日本-01
+vless=106.75.143.18:5001, method=none, password=33b54cc6-ce2d-449c-b656-1b23d40e482a, obfs=over-tls, obfs-host=buylite.tv.apple.com, reality-base64-pubkey=EecQif_ZCfTUatHuhKQc88WhGTU18eEMuc6N-K9t2EM, reality-hex-shortid=839cc7cf, tag=英国-01
+vless=106.75.143.18:5002, method=none, password=33b54cc6-ce2d-449c-b656-1b23d40e482a, obfs=over-tls, obfs-host=buylite.tv.apple.com, reality-base64-pubkey=CavI6KaZ1wEJkxRWhiProUaMjjdVYMhCJScYoXZqrxU, reality-hex-shortid=a2362ad4, tag=英国-02
+vless=106.75.143.18:5003, method=none, password=33b54cc6-ce2d-449c-b656-1b23d40e482a, obfs=over-tls, obfs-host=buylite.tv.apple.com, reality-base64-pubkey=b-nudr-UcMPMjjUGZ0SmQwS54I5vjJ21cStsB4AFWCI, reality-hex-shortid=4a1d37fa, tag=美国-01
+vless=106.75.143.18:5007, method=none, password=33b54cc6-ce2d-449c-b656-1b23d40e482a, obfs=over-tls, obfs-host=buylite.tv.apple.com, reality-base64-pubkey=W1tIXK5sUUU0Zrj2OENNl-Zc5QijpG52JKTPvqSvNX8, reality-hex-shortid=7d3decd6, tag=美国-05
+vless=106.75.143.18:5008, method=none, password=33b54cc6-ce2d-449c-b656-1b23d40e482a, obfs=over-tls, obfs-host=buylite.tv.apple.com, reality-base64-pubkey=tGvWefQ1RJD0_sdWLakaiubKbw2z8eRkR-kGDHMIpgA, reality-hex-shortid=28b484ad, tag=英国-03
+vless=106.75.143.18:5009, method=none, password=33b54cc6-ce2d-449c-b656-1b23d40e482a, obfs=over-tls, obfs-host=buylite.tv.apple.com, reality-base64-pubkey=2MRkhbOh0xFKG_iP_ehCZEG_lQUdYskA44MRlCbwtEU, reality-hex-shortid=5df9a165, tag=日本-02
+vless=106.75.143.18:5011, method=none, password=33b54cc6-ce2d-449c-b656-1b23d40e482a, obfs=over-tls, obfs-host=buylite.tv.apple.com, reality-base64-pubkey=SCKPUmFnxhMmWB8pukNJArqtWVZV4G7zeClrOUwXjjw, reality-hex-shortid=87991e38, tag=日本-04
+vless=106.75.143.18:5015, method=none, password=33b54cc6-ce2d-449c-b656-1b23d40e482a, obfs=over-tls, obfs-host=buylite.tv.apple.com, reality-base64-pubkey=Ovm5aUXrAx3zbb9XkCX2G5Jv8x9uJHvYYHMpi6J7Jjo, reality-hex-shortid=6e72bbc4, tag=台湾-01
+vless=106.75.143.18:5016, method=none, password=33b54cc6-ce2d-449c-b656-1b23d40e482a, obfs=over-tls, obfs-host=buylite.tv.apple.com, reality-base64-pubkey=QY6okwYg8SY6gW41QKg6poorjUP9y2YwoCW_Rp05IBI, reality-hex-shortid=170b54d7, tag=台湾-02
+vless=106.75.143.18:5017, method=none, password=33b54cc6-ce2d-449c-b656-1b23d40e482a, obfs=over-tls, obfs-host=buylite.tv.apple.com, reality-base64-pubkey=15COnE_UiNGuhF_dDj--DQX9dRPkphi-yTJ-YO2w9SI, reality-hex-shortid=c26967b9, tag=台湾-03
+vless=106.75.143.18:5018, method=none, password=33b54cc6-ce2d-449c-b656-1b23d40e482a, obfs=over-tls, obfs-host=buylite.tv.apple.com, reality-base64-pubkey=ub08z6M80Ddag6E0UbHUVJZfXnwiOrdEi3SoE7t_rRw, reality-hex-shortid=5c817501, tag=日本-05
+vless=106.75.143.18:5019, method=none, password=33b54cc6-ce2d-449c-b656-1b23d40e482a, obfs=over-tls, obfs-host=buylite.tv.apple.com, reality-base64-pubkey=KZi2htmbtBu56b2V4P_6fQnT5cvTU-wyLARLRCu-vTA, reality-hex-shortid=c6ae43a8, tag=香港-01
+vless=106.75.143.18:5020, method=none, password=33b54cc6-ce2d-449c-b656-1b23d40e482a, obfs=over-tls, obfs-host=buylite.tv.apple.com, reality-base64-pubkey=dROhuswwq-4NajAw8xbf3WDKw33fGDtXr1JdrdSCp0M, reality-hex-shortid=269707f8, tag=香港-02
+vless=106.75.143.18:5021, method=none, password=33b54cc6-ce2d-449c-b656-1b23d40e482a, obfs=over-tls, obfs-host=buylite.tv.apple.com, reality-base64-pubkey=XoaUJoDO-yi9N1UJ7cOXFbIId9dCYwdNruvf2iR33xY, reality-hex-shortid=f1a3ff8a, tag=香港-03
+vless=106.75.143.18:4022, method=none, password=33b54cc6-ce2d-449c-b656-1b23d40e482a, obfs=over-tls, obfs-host=buylite.tv.apple.com, reality-base64-pubkey=2g8FZHxPWjphq568-OS8ypk7qb76HiMhWua0UAJfOl8, reality-hex-shortid=ace0f99d, tag=新加坡-01
 
-
-
-anytls=8uhb.pnuqcnp.cn:443, password=9sK2mP8xQ7vL3nZ6, over-tls=true, tls-host=images.ctfassets.net, udp-relay=true, tls-alpn=08687474702f312e31, tls-verification=false, tag=香港(HK)
-anytls=awefd2313fefarg23fr24.pnuqcnp.cn:443, password=9sK2mP8xQ7vL3nZ6, over-tls=true, tls-host=images.ctfassets.net, udp-relay=true, tls-alpn=08687474702f312e31, tls-verification=false, tag=美国(US)
-anytls=6ivh.pnuqcnp.cn:443, password=9sK2mP8xQ7vL3nZ6, over-tls=true, tls-host=images.ctfassets.net, udp-relay=true, tls-alpn=08687474702f312e31, tls-verification=false, tag=新加坡(SG)
-anytls=ac7548f3ebe045b39a90288ff1e97526.pnuqcnp.cn:443, password=9sK2mP8xQ7vL3nZ6, over-tls=true, tls-host=ac7548f3ebe045b39a90288ff1e97526.lwdnxf.cn, udp-relay=true, tls-alpn=08687474702f312e31, tls-verification=false, tag=日本(JP)
 
 
 
