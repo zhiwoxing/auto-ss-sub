@@ -223,6 +223,14 @@ proxy-groups:
       - "香港 · 3"
       - "美国 · 3"
       - "台湾 · 5"
+  - name: "Emby代理"
+    type: select
+    proxies:
+      - "🇭🇰 香港节点"
+      - "♻️ 自动选择"
+      - "🚀 节点选择"
+      - "🇺🇸 美国节点"
+      - "🇨🇳 台湾节点"
   - name: "📲 电报信息"
     type: select
     proxies:
@@ -304,14 +312,6 @@ proxy-groups:
     proxies:
       - "REJECT"
       - "DIRECT"
-  - name: "Emby代理"
-    type: select
-    proxies:
-      - "🇭🇰 香港节点"
-      - "♻️ 自动选择"
-      - "🚀 节点选择"
-      - "🇺🇸 美国节点"
-      - "🇨🇳 台湾节点"
   - name: "🐟 漏网之鱼"
     type: select
     proxies:
