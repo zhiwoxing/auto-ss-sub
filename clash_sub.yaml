@@ -223,14 +223,6 @@ proxy-groups:
       - "香港 · 3"
       - "美国 · 3"
       - "台湾 · 5"
-  - name: "Emby代理"
-    type: select
-    proxies:
-      - "♻️ 自动选择"
-      - "🇭🇰 香港节点"
-      - "🚀 节点选择"
-      - "🇺🇸 美国节点"
-      - "🇨🇳 台湾节点"
   - name: "📲 电报信息"
     type: select
     proxies:
@@ -312,6 +304,13 @@ proxy-groups:
     proxies:
       - "REJECT"
       - "DIRECT"
+  - name: "Emby代理"
+    type: select
+    proxies:
+      - "🚀 节点选择"
+      - "🇭🇰 香港节点"
+      - "🇺🇸 美国节点"
+      - "🇨🇳 台湾节点"
   - name: "🐟 漏网之鱼"
     type: select
     proxies:
@@ -347,10 +346,6 @@ proxy-groups:
       - "美国"
       - "美国 · 2"
       - "美国 · 3"
-  - name: "🇸🇬 狮城节点"
-    type: select
-    proxies:
-      - "DIRECT"
   - name: "🇨🇳 台湾节点"
     type: url-test
     url: "http://www.gstatic.com/generate_204"
@@ -362,6 +357,10 @@ proxy-groups:
       - "台湾 · 3"
       - "台湾 · 4"
       - "台湾 · 5"
+  - name: "🇸🇬 狮城节点"
+    type: select
+    proxies:
+      - "DIRECT"
   - name: "🇰🇷 韩国节点"
     type: select
     proxies:
