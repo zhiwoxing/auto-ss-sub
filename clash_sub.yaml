@@ -226,8 +226,8 @@ proxy-groups:
   - name: "Emby代理"
     type: select
     proxies:
-      - "🇭🇰 香港节点"
       - "♻️ 自动选择"
+      - "🇭🇰 香港节点"
       - "🚀 节点选择"
       - "🇺🇸 美国节点"
       - "🇨🇳 台湾节点"
