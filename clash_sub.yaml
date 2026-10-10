@@ -171,215 +171,6 @@ proxies:
     min-idle-session: 0
     alpn: ["http/1.1"]
     fingerprint: "48ED2204B341D33777B79635C70FD96703FD0EEFD87770104DEA1117F7C65BBC"
-  - name: "Japan-NG2 FREE"
-    type: vless
-    server: "jpga01.xyy123.bid"
-    port: 443
-    uuid: "05453546-201f-4e8d-97ae-fd70da0e951f"
-    udp: true
-    tls: true
-    skip-cert-verify: false
-    servername: "shop.business.amazon.com"
-    reality-opts:
-      public-key: "AgTktefiMM58y7f-KFgEtmVti_YJbd0GPSkxNeJ0RH4"
-      short-id: "cfffc6b65acb2ad3"
-    client-fingerprint: "chrome"
-    flow: "xtls-rprx-vision"
-  - name: "Japan-NG1 FREE"
-    type: vless
-    server: "jpga01.xyy123.bid"
-    port: 443
-    uuid: "05453546-201f-4e8d-97ae-fd70da0e951f"
-    udp: true
-    tls: true
-    skip-cert-verify: false
-    servername: "shop.business.amazon.com"
-    reality-opts:
-      public-key: "AgTktefiMM58y7f-KFgEtmVti_YJbd0GPSkxNeJ0RH4"
-      short-id: "cfffc6b65acb2ad3"
-    client-fingerprint: "chrome"
-    flow: "xtls-rprx-vision"
-  - name: "Japan-g01 FREE"
-    type: vless
-    server: "jpga01.xyy123.bid"
-    port: 443
-    uuid: "05453546-201f-4e8d-97ae-fd70da0e951f"
-    udp: true
-    tls: true
-    skip-cert-verify: false
-    servername: "shop.business.amazon.com"
-    reality-opts:
-      public-key: "AgTktefiMM58y7f-KFgEtmVti_YJbd0GPSkxNeJ0RH4"
-      short-id: "cfffc6b65acb2ad3"
-    client-fingerprint: "chrome"
-    flow: "xtls-rprx-vision"
-  - name: "Japan-g02 FREE"
-    type: vless
-    server: "jpga01.xyy123.bid"
-    port: 443
-    uuid: "05453546-201f-4e8d-97ae-fd70da0e951f"
-    udp: true
-    tls: true
-    skip-cert-verify: false
-    servername: "shop.business.amazon.com"
-    reality-opts:
-      public-key: "AgTktefiMM58y7f-KFgEtmVti_YJbd0GPSkxNeJ0RH4"
-      short-id: "cfffc6b65acb2ad3"
-    client-fingerprint: "chrome"
-    flow: "xtls-rprx-vision"
-  - name: "Japan-JND1 FREE"
-    type: vless
-    server: "japro02.xyy123.bid"
-    port: 443
-    uuid: "e4cd263b-c5c7-4410-bf61-8893179ec429"
-    udp: true
-    tls: true
-    skip-cert-verify: false
-    servername: "shop.business.amazon.com"
-    reality-opts:
-      public-key: "sDKrtAJk2VP_w1w7cFi2O86RdlvQ2E2An5xsRdJlgGE"
-      short-id: "1fc0cd"
-    client-fingerprint: "chrome"
-    flow: "xtls-rprx-vision"
-  - name: "USA-D04 FREE"
-    type: vless
-    server: "jpga01.xyy123.bid"
-    port: 443
-    uuid: "05dd8b4c-c202-406a-a550-31c0b92ba312"
-    udp: true
-    tls: true
-    skip-cert-verify: false
-    servername: "buckeye-retail-website.amazon.com"
-    reality-opts:
-      public-key: "AgTktefiMM58y7f-KFgEtmVti_YJbd0GPSkxNeJ0RH4"
-      short-id: "56cd2f720d"
-    client-fingerprint: "chrome"
-  - name: "USA-JNG1 VIP"
-    type: vless
-    server: "japro02.xyy123.bid"
-    port: 443
-    uuid: "ce7beb9a-5dc1-47b3-b3ff-94521430c446"
-    udp: true
-    tls: true
-    skip-cert-verify: false
-    servername: "home.amazon.com"
-    reality-opts:
-      public-key: "sDKrtAJk2VP_w1w7cFi2O86RdlvQ2E2An5xsRdJlgGE"
-      short-id: "6d962e8d8a0dce"
-    client-fingerprint: "chrome"
-    flow: "xtls-rprx-vision"
-  - name: "USA-JNGL1 VIP"
-    type: vless
-    server: "jpga01.xyy123.bid"
-    port: 443
-    uuid: "e4f2601f-73a8-4f23-85ff-bd7721e1366c"
-    udp: true
-    tls: true
-    skip-cert-verify: false
-    servername: "home.amazon.com"
-    reality-opts:
-      public-key: "AgTktefiMM58y7f-KFgEtmVti_YJbd0GPSkxNeJ0RH4"
-      short-id: "bdaf"
-    client-fingerprint: "chrome"
-  - name: "USA-DENG1 VIP"
-    type: vless
-    server: "defrnode.xyy123.bid"
-    port: 443
-    uuid: "3d7b3136-de73-4547-b29b-e439f2fc91c0"
-    udp: true
-    tls: true
-    skip-cert-verify: false
-    servername: "mp3recs.amazon.com"
-    reality-opts:
-      public-key: "XTarABsaaFbjYNk6lRKnUzGavHzeqMIP7B8dZGNCvkE"
-      short-id: "132fa975c199b269"
-    client-fingerprint: "chrome"
-    flow: "xtls-rprx-vision"
-  - name: "HongKong-JNG1 VIP"
-    type: vless
-    server: "japro02.xyy123.bid"
-    port: 443
-    uuid: "23af32ca-bea1-4a5e-bebb-04d1b1b633bc"
-    udp: true
-    tls: true
-    skip-cert-verify: false
-    servername: "p-nt-www-amazon-com-kalias.amazon.com"
-    reality-opts:
-      public-key: "sDKrtAJk2VP_w1w7cFi2O86RdlvQ2E2An5xsRdJlgGE"
-      short-id: "6d962e8d8a0dce"
-    client-fingerprint: "chrome"
-    flow: "xtls-rprx-vision"
-  - name: "HongKong-JNG2 VIP"
-    type: vless
-    server: "jpga01.xyy123.bid"
-    port: 443
-    uuid: "0d8bb1ce-a70f-43b7-abf6-37bf5c856eb2"
-    udp: true
-    tls: true
-    skip-cert-verify: false
-    servername: "buckeye-retail-website.amazon.com"
-    reality-opts:
-      public-key: "AgTktefiMM58y7f-KFgEtmVti_YJbd0GPSkxNeJ0RH4"
-      short-id: "bdaf"
-    client-fingerprint: "chrome"
-    flow: "xtls-rprx-vision"
-  - name: "SG-JNG2 VIP"
-    type: vless
-    server: "japro02.xyy123.bid"
-    port: 443
-    uuid: "440f986b-9469-4d80-adf0-01ba37af73c5"
-    udp: true
-    tls: true
-    skip-cert-verify: false
-    servername: "shop.business.amazon.com"
-    reality-opts:
-      public-key: "sDKrtAJk2VP_w1w7cFi2O86RdlvQ2E2An5xsRdJlgGE"
-      short-id: "6d962e8d8a0dce"
-    client-fingerprint: "chrome"
-    flow: "xtls-rprx-vision"
-  - name: "SG-JNG1 VIP"
-    type: vless
-    server: "japro02.xyy123.bid"
-    port: 443
-    uuid: "440f986b-9469-4d80-adf0-01ba37af73c5"
-    udp: true
-    tls: true
-    skip-cert-verify: false
-    servername: "shop.business.amazon.com"
-    reality-opts:
-      public-key: "sDKrtAJk2VP_w1w7cFi2O86RdlvQ2E2An5xsRdJlgGE"
-      short-id: "6d962e8d8a0dce"
-    client-fingerprint: "chrome"
-    flow: "xtls-rprx-vision"
-  - name: "DE-FRA-NG1 VIP"
-    type: vless
-    server: "defrnode.xyy123.bid"
-    port: 443
-    uuid: "8af93649-403b-46d8-9966-923d4c58402c"
-    udp: true
-    tls: true
-    skip-cert-verify: false
-    servername: "p-y3-www-amazon-com-kalias.amazon.com"
-    reality-opts:
-      public-key: "XTarABsaaFbjYNk6lRKnUzGavHzeqMIP7B8dZGNCvkE"
-      short-id: "0fa4a0e2493392"
-    client-fingerprint: "chrome"
-    flow: "xtls-rprx-vision"
-  - name: "Japan-cw01 FREE"
-    type: vless
-    server: "162.159.128.96"
-    port: 443
-    uuid: "d2116a1f-2773-4bf4-b6e2-5e7e2d09ae6e"
-    udp: true
-    tls: true
-    skip-cert-verify: false
-    servername: "ws-japan-pro-02.jumpernode.site"
-    client-fingerprint: "chrome"
-    network: "xhttp"
-    xhttp-opts:
-      path: "/V?ed=2048"
-      host: "ws-japan-pro-02.jumpernode.site"
-      mode: "auto"
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -398,21 +189,6 @@ proxy-groups:
       - "香港 · 3"
       - "美国 · 3"
       - "台湾 · 5"
-      - "Japan-NG2 FREE"
-      - "Japan-NG1 FREE"
-      - "Japan-g01 FREE"
-      - "Japan-g02 FREE"
-      - "Japan-JND1 FREE"
-      - "USA-D04 FREE"
-      - "USA-JNG1 VIP"
-      - "USA-JNGL1 VIP"
-      - "USA-DENG1 VIP"
-      - "HongKong-JNG1 VIP"
-      - "HongKong-JNG2 VIP"
-      - "SG-JNG2 VIP"
-      - "SG-JNG1 VIP"
-      - "DE-FRA-NG1 VIP"
-      - "Japan-cw01 FREE"
   - name: "♻️ 自动选择"
     type: url-test
     url: "http://www.gstatic.com/generate_204"
@@ -430,21 +206,6 @@ proxy-groups:
       - "香港 · 3"
       - "美国 · 3"
       - "台湾 · 5"
-      - "Japan-NG2 FREE"
-      - "Japan-NG1 FREE"
-      - "Japan-g01 FREE"
-      - "Japan-g02 FREE"
-      - "Japan-JND1 FREE"
-      - "USA-D04 FREE"
-      - "USA-JNG1 VIP"
-      - "USA-JNGL1 VIP"
-      - "USA-DENG1 VIP"
-      - "HongKong-JNG1 VIP"
-      - "HongKong-JNG2 VIP"
-      - "SG-JNG2 VIP"
-      - "SG-JNG1 VIP"
-      - "DE-FRA-NG1 VIP"
-      - "Japan-cw01 FREE"
   - name: "🌍 国外媒体"
     type: select
     proxies:
@@ -462,21 +223,6 @@ proxy-groups:
       - "香港 · 3"
       - "美国 · 3"
       - "台湾 · 5"
-      - "Japan-NG2 FREE"
-      - "Japan-NG1 FREE"
-      - "Japan-g01 FREE"
-      - "Japan-g02 FREE"
-      - "Japan-JND1 FREE"
-      - "USA-D04 FREE"
-      - "USA-JNG1 VIP"
-      - "USA-JNGL1 VIP"
-      - "USA-DENG1 VIP"
-      - "HongKong-JNG1 VIP"
-      - "HongKong-JNG2 VIP"
-      - "SG-JNG2 VIP"
-      - "SG-JNG1 VIP"
-      - "DE-FRA-NG1 VIP"
-      - "Japan-cw01 FREE"
   - name: "📲 电报信息"
     type: select
     proxies:
@@ -493,21 +239,6 @@ proxy-groups:
       - "香港 · 3"
       - "美国 · 3"
       - "台湾 · 5"
-      - "Japan-NG2 FREE"
-      - "Japan-NG1 FREE"
-      - "Japan-g01 FREE"
-      - "Japan-g02 FREE"
-      - "Japan-JND1 FREE"
-      - "USA-D04 FREE"
-      - "USA-JNG1 VIP"
-      - "USA-JNGL1 VIP"
-      - "USA-DENG1 VIP"
-      - "HongKong-JNG1 VIP"
-      - "HongKong-JNG2 VIP"
-      - "SG-JNG2 VIP"
-      - "SG-JNG1 VIP"
-      - "DE-FRA-NG1 VIP"
-      - "Japan-cw01 FREE"
   - name: "Ⓜ️ 微软服务"
     type: select
     proxies:
@@ -524,21 +255,6 @@ proxy-groups:
       - "香港 · 3"
       - "美国 · 3"
       - "台湾 · 5"
-      - "Japan-NG2 FREE"
-      - "Japan-NG1 FREE"
-      - "Japan-g01 FREE"
-      - "Japan-g02 FREE"
-      - "Japan-JND1 FREE"
-      - "USA-D04 FREE"
-      - "USA-JNG1 VIP"
-      - "USA-JNGL1 VIP"
-      - "USA-DENG1 VIP"
-      - "HongKong-JNG1 VIP"
-      - "HongKong-JNG2 VIP"
-      - "SG-JNG2 VIP"
-      - "SG-JNG1 VIP"
-      - "DE-FRA-NG1 VIP"
-      - "Japan-cw01 FREE"
   - name: "🍎 苹果服务"
     type: select
     proxies:
@@ -555,21 +271,6 @@ proxy-groups:
       - "香港 · 3"
       - "美国 · 3"
       - "台湾 · 5"
-      - "Japan-NG2 FREE"
-      - "Japan-NG1 FREE"
-      - "Japan-g01 FREE"
-      - "Japan-g02 FREE"
-      - "Japan-JND1 FREE"
-      - "USA-D04 FREE"
-      - "USA-JNG1 VIP"
-      - "USA-JNGL1 VIP"
-      - "USA-DENG1 VIP"
-      - "HongKong-JNG1 VIP"
-      - "HongKong-JNG2 VIP"
-      - "SG-JNG2 VIP"
-      - "SG-JNG1 VIP"
-      - "DE-FRA-NG1 VIP"
-      - "Japan-cw01 FREE"
   - name: "📢 谷歌FCM"
     type: select
     proxies:
@@ -587,21 +288,6 @@ proxy-groups:
       - "香港 · 3"
       - "美国 · 3"
       - "台湾 · 5"
-      - "Japan-NG2 FREE"
-      - "Japan-NG1 FREE"
-      - "Japan-g01 FREE"
-      - "Japan-g02 FREE"
-      - "Japan-JND1 FREE"
-      - "USA-D04 FREE"
-      - "USA-JNG1 VIP"
-      - "USA-JNGL1 VIP"
-      - "USA-DENG1 VIP"
-      - "HongKong-JNG1 VIP"
-      - "HongKong-JNG2 VIP"
-      - "SG-JNG2 VIP"
-      - "SG-JNG1 VIP"
-      - "DE-FRA-NG1 VIP"
-      - "Japan-cw01 FREE"
   - name: "🎯 全球直连"
     type: select
     proxies:
@@ -625,7 +311,6 @@ proxy-groups:
       - "🇭🇰 香港节点"
       - "🇺🇸 美国节点"
       - "🇨🇳 台湾节点"
-      - "🇸🇬 狮城节点"
   - name: "🐟 漏网之鱼"
     type: select
     proxies:
@@ -643,21 +328,6 @@ proxy-groups:
       - "香港 · 3"
       - "美国 · 3"
       - "台湾 · 5"
-      - "Japan-NG2 FREE"
-      - "Japan-NG1 FREE"
-      - "Japan-g01 FREE"
-      - "Japan-g02 FREE"
-      - "Japan-JND1 FREE"
-      - "USA-D04 FREE"
-      - "USA-JNG1 VIP"
-      - "USA-JNGL1 VIP"
-      - "USA-DENG1 VIP"
-      - "HongKong-JNG1 VIP"
-      - "HongKong-JNG2 VIP"
-      - "SG-JNG2 VIP"
-      - "SG-JNG1 VIP"
-      - "DE-FRA-NG1 VIP"
-      - "Japan-cw01 FREE"
   - name: "🇭🇰 香港节点"
     type: url-test
     url: "http://www.gstatic.com/generate_204"
@@ -667,8 +337,6 @@ proxy-groups:
       - "香港"
       - "香港 · 2"
       - "香港 · 3"
-      - "HongKong-JNG1 VIP"
-      - "HongKong-JNG2 VIP"
   - name: "🇺🇸 美国节点"
     type: url-test
     url: "http://www.gstatic.com/generate_204"
@@ -678,10 +346,6 @@ proxy-groups:
       - "美国"
       - "美国 · 2"
       - "美国 · 3"
-      - "USA-D04 FREE"
-      - "USA-JNG1 VIP"
-      - "USA-JNGL1 VIP"
-      - "USA-DENG1 VIP"
   - name: "🇨🇳 台湾节点"
     type: url-test
     url: "http://www.gstatic.com/generate_204"
@@ -694,13 +358,9 @@ proxy-groups:
       - "台湾 · 4"
       - "台湾 · 5"
   - name: "🇸🇬 狮城节点"
-    type: url-test
-    url: "http://www.gstatic.com/generate_204"
-    interval: 300
-    tolerance: 50
+    type: select
     proxies:
-      - "SG-JNG2 VIP"
-      - "SG-JNG1 VIP"
+      - "DIRECT"
   - name: "🇰🇷 韩国节点"
     type: select
     proxies:
