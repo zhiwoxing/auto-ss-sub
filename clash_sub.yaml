@@ -35,59 +35,59 @@ proxies:
     udp: true
   - name: "美国2"
     type: ss
-    server: "35.178.176.100"
+    server: "18.135.29.85"
     port: 443
     cipher: "aes-256-cfb"
     password: "amazonskr05"
     udp: true
   - name: "日本3"
     type: ss
-    server: "35.183.32.71"
+    server: "3.129.42.122"
     port: 443
     cipher: "aes-256-cfb"
     password: "amazonskr05"
     udp: true
-  - name: "香港4"
+  - name: "日本4"
     type: ss
-    server: "18.191.4.120"
+    server: "15.223.120.64"
     port: 443
     cipher: "aes-256-cfb"
     password: "amazonskr05"
     udp: true
-  - name: "日本5"
-    type: ss
-    server: "3.99.191.16"
-    port: 443
-    cipher: "aes-256-cfb"
-    password: "amazonskr05"
-    udp: true
-  - name: "新加坡6"
-    type: ss
-    server: "3.22.27.99"
-    port: 443
-    cipher: "aes-256-cfb"
-    password: "amazonskr05"
-    udp: true
-  - name: "台湾7"
-    type: ss
-    server: "18.217.108.192"
-    port: 443
-    cipher: "aes-256-cfb"
-    password: "amazonskr05"
-    udp: true
-  - name: "韩国8"
-    type: ss
-    server: "3.145.71.164"
-    port: 443
-    cipher: "aes-256-cfb"
-    password: "amazonskr05"
-    udp: true
-  - name: "加拿大9"
+  - name: "美国5"
     type: ss
     server: "47.77.188.84"
     port: 80
     cipher: "aes-256-cfb"
     password: "aliyun0120"
+    udp: true
+  - name: "台湾6"
+    type: ss
+    server: "3.96.190.88"
+    port: 443
+    cipher: "aes-256-cfb"
+    password: "amazonskr05"
+    udp: true
+  - name: "韩国7"
+    type: ss
+    server: "15.223.201.180"
+    port: 443
+    cipher: "aes-256-cfb"
+    password: "amazonskr05"
+    udp: true
+  - name: "新加坡8"
+    type: ss
+    server: "35.182.212.10"
+    port: 443
+    cipher: "aes-256-cfb"
+    password: "amazonskr05"
+    udp: true
+  - name: "香港9"
+    type: ss
+    server: "3.96.149.154"
+    port: 443
+    cipher: "aes-256-cfb"
+    password: "amazonskr05"
     udp: true
   - name: "美国10"
     type: ss
@@ -201,19 +201,19 @@ proxies:
     cipher: "aes-256-gcm"
     password: "bdb313adf74c2ede"
     udp: true
-  - name: "Finland 0126"
-    type: ss
-    server: "45.76.9.57"
-    port: 8389
-    cipher: "chacha20-ietf-poly1305"
-    password: "6054f059036c3ff1e907aeb51377b2ac54e61ceb666226fd"
-    udp: true
-  - name: "South Africa 0127"
+  - name: "South Africa 0126"
     type: ss
     server: "45.76.9.57"
     port: 8392
     cipher: "aes-128-gcm"
     password: "7f02b717406f2c5d4a7e287aa1d87a3dba9feacb5776c33f"
+    udp: true
+  - name: "Finland 0127"
+    type: ss
+    server: "45.76.9.57"
+    port: 8389
+    cipher: "chacha20-ietf-poly1305"
+    password: "6054f059036c3ff1e907aeb51377b2ac54e61ceb666226fd"
     udp: true
 
 proxy-groups:
@@ -225,12 +225,12 @@ proxy-groups:
       - "美国1"
       - "美国2"
       - "日本3"
-      - "香港4"
-      - "日本5"
-      - "新加坡6"
-      - "台湾7"
-      - "韩国8"
-      - "加拿大9"
+      - "日本4"
+      - "美国5"
+      - "台湾6"
+      - "韩国7"
+      - "新加坡8"
+      - "香港9"
       - "美国10"
       - "新加坡11"
       - "日本12"
@@ -247,8 +247,8 @@ proxy-groups:
       - "俄罗斯23"
       - "加拿大24"
       - "法国25"
-      - "Finland 0126"
-      - "South Africa 0127"
+      - "South Africa 0126"
+      - "Finland 0127"
   - name: "♻️ 自动选择"
     type: url-test
     url: "http://www.gstatic.com/generate_204"
@@ -258,12 +258,12 @@ proxy-groups:
       - "美国1"
       - "美国2"
       - "日本3"
-      - "香港4"
-      - "日本5"
-      - "新加坡6"
-      - "台湾7"
-      - "韩国8"
-      - "加拿大9"
+      - "日本4"
+      - "美国5"
+      - "台湾6"
+      - "韩国7"
+      - "新加坡8"
+      - "香港9"
       - "美国10"
       - "新加坡11"
       - "日本12"
@@ -280,8 +280,8 @@ proxy-groups:
       - "俄罗斯23"
       - "加拿大24"
       - "法国25"
-      - "Finland 0126"
-      - "South Africa 0127"
+      - "South Africa 0126"
+      - "Finland 0127"
   - name: "🌍 国外媒体"
     type: select
     proxies:
@@ -291,12 +291,12 @@ proxy-groups:
       - "美国1"
       - "美国2"
       - "日本3"
-      - "香港4"
-      - "日本5"
-      - "新加坡6"
-      - "台湾7"
-      - "韩国8"
-      - "加拿大9"
+      - "日本4"
+      - "美国5"
+      - "台湾6"
+      - "韩国7"
+      - "新加坡8"
+      - "香港9"
       - "美国10"
       - "新加坡11"
       - "日本12"
@@ -313,8 +313,8 @@ proxy-groups:
       - "俄罗斯23"
       - "加拿大24"
       - "法国25"
-      - "Finland 0126"
-      - "South Africa 0127"
+      - "South Africa 0126"
+      - "Finland 0127"
   - name: "📲 电报信息"
     type: select
     proxies:
@@ -323,12 +323,12 @@ proxy-groups:
       - "美国1"
       - "美国2"
       - "日本3"
-      - "香港4"
-      - "日本5"
-      - "新加坡6"
-      - "台湾7"
-      - "韩国8"
-      - "加拿大9"
+      - "日本4"
+      - "美国5"
+      - "台湾6"
+      - "韩国7"
+      - "新加坡8"
+      - "香港9"
       - "美国10"
       - "新加坡11"
       - "日本12"
@@ -345,8 +345,8 @@ proxy-groups:
       - "俄罗斯23"
       - "加拿大24"
       - "法国25"
-      - "Finland 0126"
-      - "South Africa 0127"
+      - "South Africa 0126"
+      - "Finland 0127"
   - name: "Ⓜ️ 微软服务"
     type: select
     proxies:
@@ -355,12 +355,12 @@ proxy-groups:
       - "美国1"
       - "美国2"
       - "日本3"
-      - "香港4"
-      - "日本5"
-      - "新加坡6"
-      - "台湾7"
-      - "韩国8"
-      - "加拿大9"
+      - "日本4"
+      - "美国5"
+      - "台湾6"
+      - "韩国7"
+      - "新加坡8"
+      - "香港9"
       - "美国10"
       - "新加坡11"
       - "日本12"
@@ -377,8 +377,8 @@ proxy-groups:
       - "俄罗斯23"
       - "加拿大24"
       - "法国25"
-      - "Finland 0126"
-      - "South Africa 0127"
+      - "South Africa 0126"
+      - "Finland 0127"
   - name: "🍎 苹果服务"
     type: select
     proxies:
@@ -387,12 +387,12 @@ proxy-groups:
       - "美国1"
       - "美国2"
       - "日本3"
-      - "香港4"
-      - "日本5"
-      - "新加坡6"
-      - "台湾7"
-      - "韩国8"
-      - "加拿大9"
+      - "日本4"
+      - "美国5"
+      - "台湾6"
+      - "韩国7"
+      - "新加坡8"
+      - "香港9"
       - "美国10"
       - "新加坡11"
       - "日本12"
@@ -409,8 +409,8 @@ proxy-groups:
       - "俄罗斯23"
       - "加拿大24"
       - "法国25"
-      - "Finland 0126"
-      - "South Africa 0127"
+      - "South Africa 0126"
+      - "Finland 0127"
   - name: "📢 谷歌FCM"
     type: select
     proxies:
@@ -420,12 +420,12 @@ proxy-groups:
       - "美国1"
       - "美国2"
       - "日本3"
-      - "香港4"
-      - "日本5"
-      - "新加坡6"
-      - "台湾7"
-      - "韩国8"
-      - "加拿大9"
+      - "日本4"
+      - "美国5"
+      - "台湾6"
+      - "韩国7"
+      - "新加坡8"
+      - "香港9"
       - "美国10"
       - "新加坡11"
       - "日本12"
@@ -442,8 +442,8 @@ proxy-groups:
       - "俄罗斯23"
       - "加拿大24"
       - "法国25"
-      - "Finland 0126"
-      - "South Africa 0127"
+      - "South Africa 0126"
+      - "Finland 0127"
   - name: "🎯 全球直连"
     type: select
     proxies:
@@ -478,12 +478,12 @@ proxy-groups:
       - "美国1"
       - "美国2"
       - "日本3"
-      - "香港4"
-      - "日本5"
-      - "新加坡6"
-      - "台湾7"
-      - "韩国8"
-      - "加拿大9"
+      - "日本4"
+      - "美国5"
+      - "台湾6"
+      - "韩国7"
+      - "新加坡8"
+      - "香港9"
       - "美国10"
       - "新加坡11"
       - "日本12"
@@ -500,15 +500,15 @@ proxy-groups:
       - "俄罗斯23"
       - "加拿大24"
       - "法国25"
-      - "Finland 0126"
-      - "South Africa 0127"
+      - "South Africa 0126"
+      - "Finland 0127"
   - name: "🇭🇰 香港节点"
     type: url-test
     url: "http://www.gstatic.com/generate_204"
     interval: 300
     tolerance: 50
     proxies:
-      - "香港4"
+      - "香港9"
       - "香港13"
       - "香港22"
   - name: "🇺🇸 美国节点"
@@ -519,6 +519,7 @@ proxy-groups:
     proxies:
       - "美国1"
       - "美国2"
+      - "美国5"
       - "美国10"
   - name: "🇨🇳 台湾节点"
     type: url-test
@@ -526,7 +527,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - "台湾7"
+      - "台湾6"
       - "台湾14"
   - name: "🇸🇬 狮城节点"
     type: url-test
@@ -534,7 +535,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - "新加坡6"
+      - "新加坡8"
       - "新加坡11"
   - name: "🇰🇷 韩国节点"
     type: url-test
@@ -542,7 +543,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - "韩国8"
+      - "韩国7"
 
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
