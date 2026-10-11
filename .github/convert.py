@@ -165,8 +165,8 @@ def main():
         f.write("\n".join(yaml_lines) + "\n\n")
 
     # 注入 rules.txt 分流规则
-    if os.path.exists("rules.txt"):
-        with open("rules.txt", "r", encoding="utf-8") as r:
+    if os.path.exists(".github/rules.txt"):
+        with open(".github/rules.txt", "r", encoding="utf-8") as r:
             with open("clash_sub.yaml", "a", encoding="utf-8") as f:
                 f.write(r.read())
         print("Clash 转换完成并成功注入规则！")
