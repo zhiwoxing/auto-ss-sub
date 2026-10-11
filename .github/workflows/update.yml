@@ -34,7 +34,7 @@ jobs:
           base64 raw.txt | tr -d '\n' > sub.txt
 
       - name: Run Converter for Surge and Clash
-        run: python convert.py
+        run: python .github/convert.py
 
       - name: Clean up temporary files
         run: rm raw.txt
