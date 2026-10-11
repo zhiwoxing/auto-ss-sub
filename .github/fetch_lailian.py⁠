@@ -1,0 +1,88 @@
+import requests
+import random
+import time
+import urllib.parse
+import json
+
+BASE_URL = "https://api.lailian.app"
+UA = "evvpn/1 CFNetwork/1402.0.8 Darwin/22.2.0"
+DEVICE_POOL = [
+    "iPhone13,4", "iPhone14,5", "iPhone15,3", "iPhone15,4",
+    "iPad13,16", "iPad14,3", "iPad16,1", "iPhone14,2", "iPhone15,5"
+]
+
+def generate_uid():
+    return ''.join(random.choices('0123456789abcdef', k=32)) + 'x'
+
+def get_headers(token=None, is_node=False):
+    headers = {
+        "Accept": "application/json",
+        "Content-Type": "application/json",
+        "User-Agent": UA,
+        "Accept-Language": "zh-CN,zh-Hans;q=0.9"
+    }
+    if token:
+        headers["X-Token"] = token
+    if is_node:
+        headers["x-platform"] = "ios"
+    return headers
+
+def device_login():
+    uid = generate_uid()
+    name = random.choice(DEVICE_POOL)
+    print(f"[*] 正在注册设备: {name} / {uid}")
+    
+    payload = {
+        "deviceName": name,
+        "osVersion": "16.2",
+        "deviceType": "ios",
+        "deviceUid": uid
+    }
+    res = requests.post(f"{BASE_URL}/api/user/auth/deviceLogin", headers=get_headers(), json=payload).json()
+    if res.get("code") == 200:
+        return res["data"]["token"]
+    raise Exception("注册失败: " + str(res))
+
+def main():
+    try:
+        main_token = device_login()
+        sub_token = device_login()
+
+        res = requests.post(f"{BASE_URL}/api/user/self/inviteDetail", headers=get_headers(main_token), json={}).json()
+        if res.get("code") != 200: raise Exception("获取邀请码失败")
+        invite_code = res["data"]["inviteCode"]
+        
+        requests.post(f"{BASE_URL}/api/user/self/bindInviter", headers=get_headers(sub_token), json={"inviteCode": invite_code})
+
+        nodes_res = requests.post(f"{BASE_URL}/api/user/node/nodeList", headers=get_headers(main_token, True), json={}).json()
+        if nodes_res.get("code") != 200: raise Exception("获取节点列表失败")
+        
+        nodes = nodes_res["data"].get("nodes", [])
+        extracted_links = []
+        for node in nodes:
+            node_id = node["id"]
+            name = node["nodeName"]
+            tags = node.get("tags", [])
+            remark = name if not tags else f"{name}({'-'.join(tags)})"
+            
+            try:
+                conn_res = requests.post(f"{BASE_URL}/api/user/node/connect", headers=get_headers(main_token, True), json={"nodeId": node_id}).json()
+                if conn_res.get("code") == 200 and conn_res["data"].get("links"):
+                    link = conn_res["data"]["links"][0]
+                    if "#" in link: link = link.split("#")[0]
+                    link = f"{link}#{urllib.parse.quote(remark)}"
+                    extracted_links.append(link)
+            except Exception as e:
+                pass
+            time.sleep(2) 
+
+        # 注意这里：生成的是 lailian_raw.txt
+        if extracted_links:
+            with open("lailian_raw.txt", "w", encoding="utf-8") as f:
+                f.write("\n".join(extracted_links))
+            print(f"抓取完毕，共 {len(extracted_links)} 个节点。")
+    except Exception as e:
+        print(f"异常: {e}")
+
+if __name__ == "__main__":
+    main()
