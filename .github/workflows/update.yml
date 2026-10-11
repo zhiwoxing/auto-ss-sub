@@ -30,12 +30,10 @@ jobs:
           # 2. 删除第一个节点
           sed -i '1d' raw.txt
 
-          # 3. 进行 Base64 编码生成原版 sub.txt (不改动原有逻辑)
+          # 3. 进行 Base64 编码生成原版 sub.txt (保持最初逻辑不变)
           base64 raw.txt | tr -d '\n' > sub.txt
-          
-          # 注意：这里我们先不删除 raw.txt，留给 Python 脚本去解析
 
-      - name: Run Converter for Surge
+      - name: Run Converter for Surge and Clash
         run: python convert.py
 
       - name: Clean up temporary files
@@ -45,6 +43,7 @@ jobs:
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
-          git add sub.txt surge_sub.txt
+          # 这里把生成的三个文件一起提交！
+          git add sub.txt surge_sub.txt clash_sub.yaml
           # 如果没有变化就不提交，防止报错
           git diff --quiet && git diff --staged --quiet || (git commit -m "Auto update subscription" && git push)
