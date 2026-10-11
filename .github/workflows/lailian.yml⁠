@@ -1,0 +1,49 @@
+name: Fetch Lailian Nodes
+
+permissions:
+  contents: write
+
+on:
+  schedule:
+    - cron: "0 */6 * * *" # 每6小时运行一次，错开时间
+  workflow_dispatch:
+
+jobs:
+  lailian-update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install Dependencies
+        run: pip install requests
+
+      # 1. 抓取来连VPN节点
+      - name: Fetch Lailian Nodes
+        run: python .github/fetch_lailian.py
+
+      # 2. 将节点转为 Base64 通用格式 (生成 lailian_sub.txt)
+      - name: Process to Base64
+        run: |
+          if [ -f "lailian_raw.txt" ]; then
+            base64 lailian_raw.txt | tr -d '\n' > lailian_sub.txt
+          fi
+
+      # 3. 转换为 Surge 和 Clash 格式
+      - name: Run Converter
+        run: python .github/convert_lailian.py
+
+      - name: Clean up temporary files
+        run: rm -f lailian_raw.txt
+
+      - name: Commit and push
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git add lailian_sub.txt lailian_surge.txt lailian_clash.yaml
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto update Lailian subscription" && git push)
