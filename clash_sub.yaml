@@ -26,65 +26,65 @@ dns:
     - https://doh.pub/dns-query
 
 proxies:
-  - name: "香港1"
+  - name: "日本1"
     type: ss
-    server: "99.79.62.94"
+    server: "3.67.177.145"
     port: 443
     cipher: "aes-256-cfb"
     password: "amazonskr05"
     udp: true
-  - name: "美国2"
+  - name: "日本2"
     type: ss
-    server: "54.221.76.140"
+    server: "3.79.99.176"
     port: 443
     cipher: "aes-256-cfb"
     password: "amazonskr05"
     udp: true
   - name: "美国3"
     type: ss
-    server: "47.77.191.92"
+    server: "34.228.21.153"
+    port: 443
+    cipher: "aes-256-cfb"
+    password: "amazonskr05"
+    udp: true
+  - name: "加拿大4"
+    type: ss
+    server: "47.77.188.84"
     port: 80
     cipher: "aes-256-cfb"
     password: "aliyun0120"
     udp: true
-  - name: "日本4"
+  - name: "新加坡5"
+    type: ss
+    server: "15.175.213.22"
+    port: 443
+    cipher: "aes-256-cfb"
+    password: "amazonskr05"
+    udp: true
+  - name: "香港6"
     type: ss
     server: "35.182.118.175"
     port: 443
     cipher: "aes-256-cfb"
     password: "amazonskr05"
     udp: true
-  - name: "日本5"
-    type: ss
-    server: "15.156.192.45"
-    port: 443
-    cipher: "aes-256-cfb"
-    password: "amazonskr05"
-    udp: true
-  - name: "美国6"
-    type: ss
-    server: "54.88.143.125"
-    port: 443
-    cipher: "aes-256-cfb"
-    password: "amazonskr05"
-    udp: true
-  - name: "韩国7"
+  - name: "台湾7"
     type: ss
     server: "15.156.202.66"
     port: 443
     cipher: "aes-256-cfb"
     password: "amazonskr05"
     udp: true
-  - name: "新加坡8"
+  - name: "美国8"
     type: ss
-    server: "16.52.50.18"
-    port: 443
+    server: "47.77.191.92"
+    port: 80
     cipher: "aes-256-cfb"
-    password: "amazonskr05"
+    password: "aliyun0120"
     udp: true
-  - name: "加拿大9"
+  - name: "美国9"
     type: ss
-    server: "47.77.188.84"
+    server: "47.89.230.221"
     port: 80
     cipher: "aes-256-cfb"
     password: "aliyun0120"
@@ -208,15 +208,15 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - "DIRECT"
-      - "香港1"
-      - "美国2"
+      - "日本1"
+      - "日本2"
       - "美国3"
-      - "日本4"
-      - "日本5"
-      - "美国6"
-      - "韩国7"
-      - "新加坡8"
-      - "加拿大9"
+      - "加拿大4"
+      - "新加坡5"
+      - "香港6"
+      - "台湾7"
+      - "美国8"
+      - "美国9"
       - "美国10"
       - "新加坡11"
       - "日本12"
@@ -239,15 +239,15 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - "香港1"
-      - "美国2"
+      - "日本1"
+      - "日本2"
       - "美国3"
-      - "日本4"
-      - "日本5"
-      - "美国6"
-      - "韩国7"
-      - "新加坡8"
-      - "加拿大9"
+      - "加拿大4"
+      - "新加坡5"
+      - "香港6"
+      - "台湾7"
+      - "美国8"
+      - "美国9"
       - "美国10"
       - "新加坡11"
       - "日本12"
@@ -270,15 +270,15 @@ proxy-groups:
       - "🚀 节点选择"
       - "♻️ 自动选择"
       - "🎯 全球直连"
-      - "香港1"
-      - "美国2"
+      - "日本1"
+      - "日本2"
       - "美国3"
-      - "日本4"
-      - "日本5"
-      - "美国6"
-      - "韩国7"
-      - "新加坡8"
-      - "加拿大9"
+      - "加拿大4"
+      - "新加坡5"
+      - "香港6"
+      - "台湾7"
+      - "美国8"
+      - "美国9"
       - "美国10"
       - "新加坡11"
       - "日本12"
@@ -300,15 +300,15 @@ proxy-groups:
     proxies:
       - "🚀 节点选择"
       - "🎯 全球直连"
-      - "香港1"
-      - "美国2"
+      - "日本1"
+      - "日本2"
       - "美国3"
-      - "日本4"
-      - "日本5"
-      - "美国6"
-      - "韩国7"
-      - "新加坡8"
-      - "加拿大9"
+      - "加拿大4"
+      - "新加坡5"
+      - "香港6"
+      - "台湾7"
+      - "美国8"
+      - "美国9"
       - "美国10"
       - "新加坡11"
       - "日本12"
@@ -330,15 +330,15 @@ proxy-groups:
     proxies:
       - "🎯 全球直连"
       - "🚀 节点选择"
-      - "香港1"
-      - "美国2"
+      - "日本1"
+      - "日本2"
       - "美国3"
-      - "日本4"
-      - "日本5"
-      - "美国6"
-      - "韩国7"
-      - "新加坡8"
-      - "加拿大9"
+      - "加拿大4"
+      - "新加坡5"
+      - "香港6"
+      - "台湾7"
+      - "美国8"
+      - "美国9"
       - "美国10"
       - "新加坡11"
       - "日本12"
@@ -360,15 +360,15 @@ proxy-groups:
     proxies:
       - "🚀 节点选择"
       - "🎯 全球直连"
-      - "香港1"
-      - "美国2"
+      - "日本1"
+      - "日本2"
       - "美国3"
-      - "日本4"
-      - "日本5"
-      - "美国6"
-      - "韩国7"
-      - "新加坡8"
-      - "加拿大9"
+      - "加拿大4"
+      - "新加坡5"
+      - "香港6"
+      - "台湾7"
+      - "美国8"
+      - "美国9"
       - "美国10"
       - "新加坡11"
       - "日本12"
@@ -391,15 +391,15 @@ proxy-groups:
       - "🚀 节点选择"
       - "🎯 全球直连"
       - "♻️ 自动选择"
-      - "香港1"
-      - "美国2"
+      - "日本1"
+      - "日本2"
       - "美国3"
-      - "日本4"
-      - "日本5"
-      - "美国6"
-      - "韩国7"
-      - "新加坡8"
-      - "加拿大9"
+      - "加拿大4"
+      - "新加坡5"
+      - "香港6"
+      - "台湾7"
+      - "美国8"
+      - "美国9"
       - "美国10"
       - "新加坡11"
       - "日本12"
@@ -447,15 +447,15 @@ proxy-groups:
       - "🚀 节点选择"
       - "🎯 全球直连"
       - "♻️ 自动选择"
-      - "香港1"
-      - "美国2"
+      - "日本1"
+      - "日本2"
       - "美国3"
-      - "日本4"
-      - "日本5"
-      - "美国6"
-      - "韩国7"
-      - "新加坡8"
-      - "加拿大9"
+      - "加拿大4"
+      - "新加坡5"
+      - "香港6"
+      - "台湾7"
+      - "美国8"
+      - "美国9"
       - "美国10"
       - "新加坡11"
       - "日本12"
@@ -478,7 +478,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - "香港1"
+      - "香港6"
       - "香港13"
       - "香港22"
   - name: "🇺🇸 美国节点"
@@ -487,9 +487,9 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - "美国2"
       - "美国3"
-      - "美国6"
+      - "美国8"
+      - "美国9"
       - "美国10"
   - name: "🇨🇳 台湾节点"
     type: url-test
@@ -497,6 +497,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - "台湾7"
       - "台湾14"
   - name: "🇸🇬 狮城节点"
     type: url-test
@@ -504,7 +505,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - "新加坡8"
+      - "新加坡5"
       - "新加坡11"
   - name: "🇰🇷 韩国节点"
     type: url-test
@@ -512,7 +513,6 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - "韩国7"
 
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
