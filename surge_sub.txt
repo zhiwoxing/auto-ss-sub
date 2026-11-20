@@ -1,10 +1,10 @@
-🇨🇳 台湾1 = ss, 108.130.126.4, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false, udp-relay=false
-🇯🇵 日本2 = ss, 54.75.10.99, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false, udp-relay=false
-🇯🇵 日本3 = ss, 52.210.120.177, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false, udp-relay=false
-🇭🇰 香港4 = ss, 34.243.204.20, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false, udp-relay=false
-🇨🇦 加拿大5 = ss, 47.77.188.84, 80, encrypt-method=aes-256-cfb, password=aliyun0120, tfo=false, udp-relay=false
-🇸🇬 新加坡6 = ss, 34.244.57.20, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false, udp-relay=false
-🇺🇸 美国7 = ss, 47.77.191.92, 80, encrypt-method=aes-256-cfb, password=aliyun0120, tfo=false, udp-relay=false
+🇯🇵 日本1 = ss, 34.248.249.209, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false, udp-relay=false
+🇸🇬 新加坡2 = ss, 54.77.254.136, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false, udp-relay=false
+🇯🇵 日本3 = ss, 108.130.127.85, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false, udp-relay=false
+🇨🇦 加拿大4 = ss, 47.77.188.84, 80, encrypt-method=aes-256-cfb, password=aliyun0120, tfo=false, udp-relay=false
+🇺🇸 美国5 = ss, 47.77.191.92, 80, encrypt-method=aes-256-cfb, password=aliyun0120, tfo=false, udp-relay=false
+🇨🇳 台湾6 = ss, 108.131.214.222, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false, udp-relay=false
+🇭🇰 香港7 = ss, 54.75.10.99, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=false, udp-relay=false
 🇺🇸 美国8 = ss, 104.164.48.70, 18443, encrypt-method=aes-256-gcm, password=kito1TZGtKyqAOQ8+BNvkz7cssg8gVIV, tfo=false, udp-relay=false
 🇸🇬 新加坡9 = ss, 103.115.17.65, 8388, encrypt-method=aes-256-gcm, password=065AG5E4K21Mho7y, tfo=false, udp-relay=false
 🇯🇵 日本10 = ss, 103.115.18.249, 8388, encrypt-method=aes-256-gcm, password=Rx13fY2SB1lxtJWv, tfo=false, udp-relay=false
